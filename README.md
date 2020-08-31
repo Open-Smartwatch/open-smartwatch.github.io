@@ -1,2 +1,3 @@
 # open-smartwatch.github.io
-Website for this project.
+
+[https://github.com/Open-Smartwatch](https://github.com/Open-Smartwatch)
