@@ -5,6 +5,14 @@
 [GitHub: Open Smartwatch](https://github.com/Open-Smartwatch)
 [Discord: Pauls 3D Things](https://discord.gg/9DK5JY6)
 
+# Current Status
+
+The hardware is still in a prototyping phase. The software is slowly progressing as well.
+
+# Goals
+
+The goal is to build an open source smartwatch, with gps tracking and maps.
+
 # Hardware
 
 ## Version I
