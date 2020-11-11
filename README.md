@@ -12,13 +12,13 @@ The v1.0 hardware has been assembled and reviewed. Many improvements need to be 
 
 Click on an image below to see some tech-demos:
 
-<a href="https://www.instagram.com/p/CEaALDAKkrY/" target="_blank"><img src="assets/media-links/update-1.png" style="width:33%" /></a>
-<a href="https://www.instagram.com/p/CEXmMHgqWuu/" target="_blank"><img src="assets/media-links/update-2.png" style="width:33%" /></a>
-<a href="https://www.instagram.com/p/CFM6PhgKQAZ/" target="_blank"><img src="assets/media-links/update-3.png" style="width:33%" /></a>
-<a href="https://www.instagram.com/p/CG7JhVLKmCw/" target="_blank"><img src="assets/media-links/update-4.png" style="width:33%" /></a>
-<a href="https://www.instagram.com/p/CG4RQgAL288/" target="_blank"><img src="assets/media-links/update-5.png" style="width:33%" /></a>
-<a href="https://www.instagram.com/p/CHWNOh-KswS/" target="_blank"><img src="assets/media-links/update-6.png" style="width:33%" /></a>
-<a href="https://www.instagram.com/p/CHYqOoEqUUx/" target="_blank"><img src="assets/media-links/update-7.png" style="width:33%" /></a>
+<a href="https://www.instagram.com/p/CEaALDAKkrY/" target="_blank"><img src="assets/media-links/update-1.png" style="width:16%" /></a>
+<a href="https://www.instagram.com/p/CEXmMHgqWuu/" target="_blank"><img src="assets/media-links/update-2.png" style="width:16%" /></a>
+<a href="https://www.instagram.com/p/CFM6PhgKQAZ/" target="_blank"><img src="assets/media-links/update-3.png" style="width:16%" /></a>
+<a href="https://www.instagram.com/p/CG7JhVLKmCw/" target="_blank"><img src="assets/media-links/update-4.png" style="width:16%" /></a>
+<a href="https://www.instagram.com/p/CG4RQgAL288/" target="_blank"><img src="assets/media-links/update-5.png" style="width:16%" /></a>
+<a href="https://www.instagram.com/p/CHWNOh-KswS/" target="_blank"><img src="assets/media-links/update-6.png" style="width:16%" /></a>
+<a href="https://www.instagram.com/p/CHYqOoEqUUx/" target="_blank"><img src="assets/media-links/update-7.png" style="width:16%" /></a>
 
 
 ## Goals
@@ -41,11 +41,11 @@ Repositoryies:
 See: [https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/kicad-project/blob/master/docs/bom/osw-ibom_v.html](https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/kicad-project/blob/master/docs/bom/osw-ibom_v.html)
 
 ### Schematic
-[![Schematic](docs/img/osw-schematic.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/osw-schematic.pdf)
+[![Schematic](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-schematic.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/osw-schematic.pdf)
 
 ### Plots
-[![front](docs/img/osw-top.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-top.svg)
-[![bottom](docs/img/osw-bottom.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-bottom.svg)
+[![front](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-top.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-top.svg)
+[![bottom](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-bottom.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-bottom.svg)
 
 ## Software 
 
@@ -60,5 +60,5 @@ Repository: [https://github.com/Open-Smartwatch/3d-files](https://github.com/Ope
 
 ### Case v1.0
 
-<img src="docs/renders/case-v1.0-bot.png" style="width:66%" />
-<img src="docs/renders/case-v1.0-top.png" style="width:66%" />
+<img src="assets/renders/case-v1.0-bot.png" style="width:66%" />
+<img src="assets/renders/case-v1.0-top.png" style="width:66%" />
