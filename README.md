@@ -53,7 +53,7 @@ Repositories:
 * Open-Smartwatch OS: [https://github.com/Open-Smartwatch/open-smartwatch-os](https://github.com/Open-Smartwatch/open-smartwatch-os)
 * Open-Smartwatch Libraries: [https://github.com/Open-Smartwatch/lib-open-smartwatch](https://github.com/Open-Smartwatch/lib-open-smartwatch)
 
-## 3D-Printable Case
+## 3D-Printed Case
 
 Repository: [https://github.com/Open-Smartwatch/3d-files](https://github.com/Open-Smartwatch/3d-files)
 
