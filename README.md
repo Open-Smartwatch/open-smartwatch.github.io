@@ -19,6 +19,7 @@ Click on an image below to see some demos:
 
 The goal is to build an open source smartwatch, with gps tracking and maps.
 
+- ESP32 (Arduino programmable)
 - GPS
 - Time
 - Sensors (Acceleromter, Barometer, Temperature, Humidity)
