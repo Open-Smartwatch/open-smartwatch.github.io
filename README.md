@@ -1,10 +1,5 @@
 # Open Smartwatch
 
-## Organization / Coordination
-
-* [GitHub: Open Smartwatch](https://github.com/Open-Smartwatch)
-* [Discord: Pauls 3D Things](https://discord.gg/9DK5JY6) 
-
 ## Current Status
 
 The hardware and software are under development.
@@ -30,6 +25,11 @@ The goal is to build an open source smartwatch, with gps tracking and maps.
 - Li-Ion Battery
 - USB Serial
 - uSD Card (to provide open streetmap tiles)
+
+## Organization / Coordination
+
+* Discussions happen on Discord: [Pauls 3D Things](https://discord.gg/9DK5JY6) 
+* Coding happens on GitHub [Open Smartwatch](https://github.com/Open-Smartwatch)
 
 ## Hardware
 
