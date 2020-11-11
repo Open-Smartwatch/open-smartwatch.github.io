@@ -12,14 +12,13 @@ The v1.0 hardware has been assembled and reviewed. Many improvements need to be 
 
 Click on an image below to see some tech-demos:
 
-<a href="https://www.instagram.com/p/CEaALDAKkrY/" target="_blank"><img src="assets/media-links/update-1.png" width="256px"/></a>
-<a href="https://www.instagram.com/p/CEXmMHgqWuu/" target="_blank"><img src="assets/media-links/update-2.png" width="256px"/></a>
-<a href="https://www.instagram.com/p/CFM6PhgKQAZ/" target="_blank"><img src="assets/media-links/update-3.png" width="256px"/></a>
-<a href="https://www.instagram.com/p/CG7JhVLKmCw/" target="_blank"><img src="assets/media-links/update-4.png" width="256px"/></a>
-<a href="https://www.instagram.com/p/CG4RQgAL288/" target="_blank"><img src="assets/media-links/update-5.png" width="256px"/></a>
-<a href="https://www.instagram.com/p/CHWNOh-KswS/" target="_blank"><img src="assets/media-links/update-6.png" width="256px"/></a>
-<a href="https://www.instagram.com/p/CHYqOoEqUUx/" target="_blank"><img src="assets/media-links/update-7.png" width="256px"/></a>
-
+<a href="https://www.instagram.com/p/CHYqOoEqUUx/" target="_blank"><img src="assets/media-links/update-7.png" width="192px"/></a>
+<a href="https://www.instagram.com/p/CHWNOh-KswS/" target="_blank"><img src="assets/media-links/update-6.png" width="192px"/></a>
+<a href="https://www.instagram.com/p/CG4RQgAL288/" target="_blank"><img src="assets/media-links/update-5.png" width="192px"/></a>
+<a href="https://www.instagram.com/p/CG7JhVLKmCw/" target="_blank"><img src="assets/media-links/update-4.png" width="192px"/></a>
+<a href="https://www.instagram.com/p/CFM6PhgKQAZ/" target="_blank"><img src="assets/media-links/update-3.png" width="192px"/></a>
+<a href="https://www.instagram.com/p/CEaALDAKkrY/" target="_blank"><img src="assets/media-links/update-2.png" width="192px"/></a>
+<a href="https://www.instagram.com/p/CEXmMHgqWuu/" target="_blank"><img src="assets/media-links/update-1.png" width="192px"/></a>
 
 ## Goals
 
