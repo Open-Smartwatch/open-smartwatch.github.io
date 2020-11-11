@@ -5,7 +5,7 @@
 The hardware and software are under development.
 The v1.0 hardware has been assembled and reviewed. Many improvements need to be made.
 
-Click on an image below to see some tech-demos:
+Click on an image below to see some demos:
 
 <a href="https://www.instagram.com/p/CHYqOoEqUUx/" target="_blank"><img src="assets/media-links/update-7.png" width="192px"/></a>
 <a href="https://www.instagram.com/p/CHWNOh-KswS/" target="_blank"><img src="assets/media-links/update-6.png" width="192px"/></a>
