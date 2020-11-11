@@ -2,41 +2,63 @@
 
 ## Organization / Coordination
 
-[GitHub: Open Smartwatch](https://github.com/Open-Smartwatch)
-[Discord: Pauls 3D Things](https://discord.gg/9DK5JY6)
+* [GitHub: Open Smartwatch](https://github.com/Open-Smartwatch)
+* [Discord: Pauls 3D Things](https://discord.gg/9DK5JY6) 
 
-# Current Status
+## Current Status
 
-The hardware is still in a prototyping phase. The software is slowly progressing as well.
+The hardware and software are under development.
+The v1.0 hardware has been assembled and reviewed. Many improvements need to be made.
 
-# Goals
+Click on an image below to see some tech-demos:
+
+<a href="https://www.instagram.com/p/CEaALDAKkrY/" target="_blank"><img src="assets/media-links/update-1.png" style="width:33%" /></a>
+<a href="https://www.instagram.com/p/CEXmMHgqWuu/" target="_blank"><img src="assets/media-links/update-2.png" style="width:33%" /></a>
+<a href="https://www.instagram.com/p/CFM6PhgKQAZ/" target="_blank"><img src="assets/media-links/update-3.png" style="width:33%" /></a>
+<a href="https://www.instagram.com/p/CG7JhVLKmCw/" target="_blank"><img src="assets/media-links/update-4.png" style="width:33%" /></a>
+<a href="https://www.instagram.com/p/CG4RQgAL288/" target="_blank"><img src="assets/media-links/update-5.png" style="width:33%" /></a>
+<a href="https://www.instagram.com/p/CHWNOh-KswS/" target="_blank"><img src="assets/media-links/update-6.png" style="width:33%" /></a>
+<a href="https://www.instagram.com/p/CHYqOoEqUUx/" target="_blank"><img src="assets/media-links/update-7.png" style="width:33%" /></a>
+
+
+## Goals
 
 The goal is to build an open source smartwatch, with gps tracking and maps.
 
-# Hardware
+- GPS
+- Time
+- Sensors (Acceleromter, Barometer, Temperature, Humidity)
+- Li-Ion Battery
+- USB Serial
+- uSD Card (to provide open streetmap tiles)
 
-## Version I
-- ESP32 pico d4 (module ttgo 32micro) 
-        Datasheet: https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
-- GC9A01 based IPS display (round)
-- GPS quectel l96-m33
-        Datasheet: https://www.quectel.com/UploadImage/Downlad/Quectel_L96_Hardware_Design_V1.2.pdf
-- micro SD card (for open street maps)
-- serial to usb (CH340E)
-- lipo charging (mcp73831)
-        Datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf
-- voltage regulator (mcp1812 or TLV70233DBVR, same footprints)
-- power management: TPS2115A
-- sensors: BMA400, BMP280
-- buttons: reset, flash, + 2-3 more (4-5 total, reset = wakeup, 3-4 different buttons)
-- voltage sensing: 1MOhm voltage divider
-- display pwm: 2n7002 (n-ch)
+## Hardware
 
-# Software 
+Repositoryies: 
 
-Current repository: https://github.com/Open-Smartwatch/esp32-pico-gc9a01
+### BOM
 
-## Demos
+See: [https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/kicad-project/blob/master/docs/bom/osw-ibom_v.html](https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/kicad-project/blob/master/docs/bom/osw-ibom_v.html)
 
-- [Perlin-Noise World Watch Face](https://www.instagram.com/p/CEaALDAKkrY/)
-- [Burning Watch Face](https://www.instagram.com/p/CEXmMHgqWuu/)
+### Schematic
+[![Schematic](docs/img/osw-schematic.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/osw-schematic.pdf)
+
+### Plots
+[![front](docs/img/osw-top.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-top.svg)
+[![bottom](docs/img/osw-bottom.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-bottom.svg)
+
+## Software 
+
+Repositories:
+
+* Open-Smartwatch OS: [https://github.com/Open-Smartwatch/open-smartwatch-os](https://github.com/Open-Smartwatch/open-smartwatch-os)
+* Open-Smartwatch Libraries: [https://github.com/Open-Smartwatch/lib-open-smartwatch](https://github.com/Open-Smartwatch/lib-open-smartwatch)
+
+## 3D-Printable Case
+
+Repository: [https://github.com/Open-Smartwatch/3d-files](https://github.com/Open-Smartwatch/3d-files)
+
+### Case v1.0
+
+<img src="docs/renders/case-v1.0-bot.png" style="width:66%" />
+<img src="docs/renders/case-v1.0-top.png" style="width:66%" />
