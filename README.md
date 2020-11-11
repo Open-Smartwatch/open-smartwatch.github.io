@@ -59,5 +59,5 @@ Repository: [https://github.com/Open-Smartwatch/3d-files](https://github.com/Ope
 
 ### Case v1.0
 
-<img src="assets/renders/case-v1.0-bot.png" width="256px" />
-<img src="assets/renders/case-v1.0-top.png" width="256px" />
+<img src="assets/renders/case-v1.0-bot.png" width="192px" />
+<img src="assets/renders/case-v1.0-top.png" width="192px" />
