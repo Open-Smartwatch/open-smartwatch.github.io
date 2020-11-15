@@ -34,7 +34,7 @@ The goal is to build an open source smartwatch, with gps tracking and maps.
 
 ## Hardware
 
-Repositoryies: 
+Repository: [https://github.com/Open-Smartwatch/kicad-project](https://github.com/Open-Smartwatch/kicad-project)
 
 ### BOM
 
@@ -51,8 +51,8 @@ See: [https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/kicad-pr
 
 Repositories:
 
-* Open-Smartwatch OS: [https://github.com/Open-Smartwatch/open-smartwatch-os](https://github.com/Open-Smartwatch/open-smartwatch-os)
-* Open-Smartwatch Libraries: [https://github.com/Open-Smartwatch/lib-open-smartwatch](https://github.com/Open-Smartwatch/lib-open-smartwatch)
+* Open-Smartwatch OS: [https://github.com/Open-Smartwatch/open-smartwatch-os](https://github.com/Open-Smartwatch/open-smartwatch-os), see Readme.md
+* Open-Smartwatch Libraries: [https://github.com/Open-Smartwatch/lib-open-smartwatch](https://github.com/Open-Smartwatch/lib-open-smartwatch), see Readme.md
 
 ## 3D-Printed Case
 
