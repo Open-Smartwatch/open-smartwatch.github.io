@@ -1,6 +1,6 @@
 # Open Smartwatch
 
-<a href="https://www.instagram.com/p/CHYqOoEqUUx/" target="_blank"><img src="assets/renders/logo.png" width="384px"/></a>
+<img src="assets/renders/logo.png" width="384px"/>
 
 ## Current Status
 
