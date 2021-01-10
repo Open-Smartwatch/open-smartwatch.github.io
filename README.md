@@ -1,12 +1,25 @@
 # Open Smartwatch
 
+<a href="https://www.instagram.com/p/CHYqOoEqUUx/" target="_blank"><img src="assets/renders/logo.png" width="384px"/></a>
+
 ## Current Status
 
-The hardware and software are under development.
-The v1.0 hardware has been assembled and reviewed. Many improvements need to be made.
+* GPS Edition
+    - PCB v2.0: still under development
+    - 3D printable case needs to be redesigned
+
+* Light Edition
+    - PCB v3.1: final testing
+    - 3D printable case in testing
+
+For both editions, the hardware and software are still under development.
+There are still many improvements to be made. The light edition will be the first version that will be "released".
 
 Click on an image below to see some demos:
 
+<a href="https://www.instagram.com/p/CJ0kNxRrvyN/" target="_blank"><img src="assets/media-links/update-10.png" width="192px"/></a>
+<a href="https://www.instagram.com/p/CJpAeQTLxKy/" target="_blank"><img src="assets/media-links/update-9.png" width="192px"/></a>
+<a href="https://www.instagram.com/p/CJblPtjLbKY/" target="_blank"><img src="assets/media-links/update-8.png" width="192px"/></a>
 <a href="https://www.instagram.com/p/CHYqOoEqUUx/" target="_blank"><img src="assets/media-links/update-7.png" width="192px"/></a>
 <a href="https://www.instagram.com/p/CHWNOh-KswS/" target="_blank"><img src="assets/media-links/update-6.png" width="192px"/></a>
 <a href="https://www.instagram.com/p/CG4RQgAL288/" target="_blank"><img src="assets/media-links/update-5.png" width="192px"/></a>
@@ -17,35 +30,46 @@ Click on an image below to see some demos:
 
 ## Goals
 
-The goal is to build an open source smartwatch, with gps tracking and maps.
+The goal is to build an open source smartwatch, with step counting, GPS tracking and maps.
 
 - ESP32 (Arduino programmable)
 - GPS
 - Time
-- Sensors (Acceleromter, Barometer, Temperature, Humidity)
+- Sensors (Acceleromter, Step Counting)
 - Li-Ion Battery
 - USB Serial
 - uSD Card (to provide open streetmap tiles)
 
-## Organization / Coordination
+## Join the Discussion
 
 * Discussions happen on Discord: [Pauls 3D Things](https://discord.gg/9DK5JY6) 
-* Coding happens on GitHub [Open Smartwatch](https://github.com/Open-Smartwatch)
+* Github organization: [https://github.com/Open-Smartwatch](https://github.com/Open-Smartwatch)
 
 ## Hardware
 
-Repository: [https://github.com/Open-Smartwatch/kicad-project](https://github.com/Open-Smartwatch/kicad-project)
+### GPS Edition
 
-### BOM
+* KiCad Project Files: [https://github.com/Open-Smartwatch/kicad-project](https://github.com/Open-Smartwatch/kicad-project)
+* BOM: [https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom_v.html](https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom_v.html)
+* 3D Files: [https://github.com/Open-Smartwatch/3d-files/tree/master/case](https://github.com/Open-Smartwatch/3d-files/tree/master/case)
 
-See: [https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/kicad-project/blob/master/docs/bom/osw-ibom_v.html](https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/kicad-project/blob/master/docs/bom/osw-ibom_v.html)
-
-### Schematic
-[![Schematic](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-schematic.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/osw-schematic.pdf)
-
-### Plots
 [![front](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-top.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-top.svg)
 [![bottom](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-bottom.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-bottom.svg)
+
+[![Schematic](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-schematic.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/osw-schematic.pdf)
+
+
+### Light Edition
+
+* KiCad Project Files: [https://github.com/Open-Smartwatch/open-smartwatch-light](https://github.com/Open-Smartwatch/open-smartwatch-light)
+* BOM: [https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom_v.html](https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom_v.html)
+* 3D Files: [https://github.com/Open-Smartwatch/3d-files/tree/master/case-light](https://github.com/Open-Smartwatch/3d-files/tree/master/case-light)
+
+
+[![front](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-light/master/docs/img/osw-light-top.svg)](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-light/master/docs/img/osw-light-top.svg)
+[![bottom](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-light/master/docs/img/osw-light-bottom.svg)](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-light/master/docs/img/osw-light-bottom.svg)
+
+[![Schematic](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-light/master/docs/img/osw-light-schematic.svg)](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-light/master/docs/img/osw-light-schematic.svg)
 
 ## Software 
 
@@ -54,11 +78,3 @@ Repositories:
 * Open-Smartwatch OS: [https://github.com/Open-Smartwatch/open-smartwatch-os](https://github.com/Open-Smartwatch/open-smartwatch-os), see Readme.md
 * Open-Smartwatch Libraries: [https://github.com/Open-Smartwatch/lib-open-smartwatch](https://github.com/Open-Smartwatch/lib-open-smartwatch), see Readme.md
 
-## 3D-Printed Case
-
-Repository: [https://github.com/Open-Smartwatch/3d-files](https://github.com/Open-Smartwatch/3d-files)
-
-### Case v1.0
-
-<img src="assets/renders/case-v1.0-bot.png" width="192px" />
-<img src="assets/renders/case-v1.0-top.png" width="192px" />
