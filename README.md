@@ -6,14 +6,11 @@
 
 * GPS Edition
     - PCB v2.0: still under development
-    - 3D printable case needs to be redesigned
+    - 3D printable case: TODO
 
 * Light Edition
-    - PCB v3.1: final testing
-    - 3D printable case in testing
-
-For both editions, the hardware and software are still under development.
-There are still many improvements to be made. The light edition will be the first version that will be "released".
+    - PCB v3.2: ready
+    - 3D printable case: ready
 
 Click on an image below to see some demos:
 
