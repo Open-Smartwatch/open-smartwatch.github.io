@@ -46,7 +46,7 @@ The goal is to build an open source smartwatch, with step counting, GPS tracking
 
 ### GPS Edition
 
-* KiCad Project Files: [https://github.com/Open-Smartwatch/kicad-project](https://github.com/Open-Smartwatch/kicad-project)
+* PCB Source Files (KiCAD): [https://github.com/Open-Smartwatch/kicad-project](https://github.com/Open-Smartwatch/kicad-project)
 * BOM: [https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom_v.html](https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom_v.html)
 * 3D Files: [https://github.com/Open-Smartwatch/3d-files/tree/master/case](https://github.com/Open-Smartwatch/3d-files/tree/master/case)
 
@@ -58,7 +58,8 @@ The goal is to build an open source smartwatch, with step counting, GPS tracking
 
 ### Light Edition
 
-* KiCad Project Files: [https://github.com/Open-Smartwatch/open-smartwatch-light](https://github.com/Open-Smartwatch/open-smartwatch-light)
+* PCB Source File (KiCAD): [https://github.com/Open-Smartwatch/open-smartwatch-light](https://github.com/Open-Smartwatch/open-smartwatch-light)
+* Order PCB here: [https://aisler.net/p/EBEIQYQD](https://aisler.net/p/EBEIQYQD) (Hint: AISLER sponsored the PCBs for protoyping this project, hence the logo on the PCB ;) )
 * BOM: [https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom.html](https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom.html)
 * 3D Files: [https://github.com/Open-Smartwatch/3d-files/tree/master/case-light](https://github.com/Open-Smartwatch/3d-files/tree/master/case-light)
 
