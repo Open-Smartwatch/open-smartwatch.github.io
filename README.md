@@ -37,6 +37,10 @@ The goal is to build an open source smartwatch, with step counting, GPS tracking
 - USB Serial
 - uSD Card (to provide open streetmap tiles)
 
+## Media Coverage
+
+- hackster.io: [Something ESPecially Impressive about the Open-Smartwatch Project](https://www.hackster.io/news/there-s-something-especially-impressive-about-the-opensmartwatch-project-c2c878b983cf)
+
 ## Join the Discussion
 
 * Discussions happen on Discord: [Pauls 3D Things](https://discord.gg/9DK5JY6) 
