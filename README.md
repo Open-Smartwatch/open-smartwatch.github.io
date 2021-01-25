@@ -80,3 +80,10 @@ Repositories:
 * Open-Smartwatch OS: [https://github.com/Open-Smartwatch/open-smartwatch-os](https://github.com/Open-Smartwatch/open-smartwatch-os), see Readme.md
 * Open-Smartwatch Libraries: [https://github.com/Open-Smartwatch/lib-open-smartwatch](https://github.com/Open-Smartwatch/lib-open-smartwatch), see Readme.md
 
+
+
+## Super-Quick-Start Guide 
+
+After adding the OS to VScode with PlatformIO (recommended tutorial: https://youtu.be/JmvMvIphMnY (external link to YouTube)) you can change the config.h.example file in ./include to suit your data, and change it to a header file (remove .example). 
+For uploading, you need to hold the lower left button and then click the reset button (top left). It enables flash mode, the display should get dark. Orientation for the display: USB insert at the left side. 
+App changer works by holding the lower left button to switch to your desired app. 
