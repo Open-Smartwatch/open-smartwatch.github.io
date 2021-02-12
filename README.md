@@ -51,8 +51,8 @@ The goal is to build an open source smartwatch, with step counting, GPS tracking
 ### GPS Edition
 
 * PCB Source Files (KiCAD): [https://github.com/Open-Smartwatch/open-smartwatch-gps](https://github.com/Open-Smartwatch/open-smartwatch-gps)
-* BOM: [https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom_v.html](https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom_v.html)
-* 3D Files: [https://github.com/Open-Smartwatch/3d-files/tree/master/case](https://github.com/Open-Smartwatch/3d-files/tree/master/case)
+* BOM: [https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-gps/blob/master/docs/bom/osw-ibom_v.html](https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-gps/blob/master/docs/bom/osw-ibom_v.html)
+* 3D Files: [https://github.com/Open-Smartwatch/3d-files/tree/master/case-gps](https://github.com/Open-Smartwatch/3d-files/tree/master/case-gps)
 
 [![front](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-gps/master/docs/img/osw-top.svg)](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-gps/master/docs/img/osw-top.svg)
 [![bottom](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-gps/master/docs/img/osw-bottom.svg)](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-gps/master/docs/img/osw-bottom.svg)
