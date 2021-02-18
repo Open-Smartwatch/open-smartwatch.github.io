@@ -91,7 +91,7 @@ The parts for the GPS Edition are a super set of the Light Edition, so the follo
 |U11 | MCP73831T-2ACI/OT SOT23-5 | [https://www.aliexpress.com/item/32714249253.html](https://www.aliexpress.com/item/32714249253.html) |
 |U9 | TPS2115APWR | [https://www.aliexpress.com/item/32612393464.html](https://www.aliexpress.com/item/32612393464.html) |
 |U5 | USB-Micro | [https://www.aliexpress.com/item/32820570603.html](https://www.aliexpress.com/item/32820570603.html) |
-|SW1, SW2, SW4, SW5 | Buttons | [https://www.aliexpress.com/item/32870278366.html]( https://www.aliexpress.com/item/32870278366.html) |
+|SW1, SW2, SW4, SW5 | Buttons | [https://www.aliexpress.com/item/32870278366.html](https://www.aliexpress.com/item/32870278366.html) |
 |XS1 | uSD Slot | [https://www.aliexpress.com/item/1005001470093106.html](https://www.aliexpress.com/item/1005001470093106.html) |
 |Q1 | 2N7002 | [https://www.aliexpress.com/item/32912312094.html](https://www.aliexpress.com/item/32912312094.html) |
 |R1-RN | 0603 SMD R | [https://www.aliexpress.com/item/32298348854.html](https://www.aliexpress.com/item/32298348854.html) |
