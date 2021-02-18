@@ -5,11 +5,11 @@
 ## Current Status
 
 * GPS Edition
-    - PCB: still under development
+    - PCB: to be tested, [Pre-Released v3.1](https://github.com/Open-Smartwatch/open-smartwatch-gps/releases/tag/v3.1)
     - 3D printable case: TODO
 
 * Light Edition
-    - PCB: [Released v3.2](https://github.com/Open-Smartwatch/open-smartwatch-light/releases/tag/v3.2)
+    - PCB: [Released v3.3](https://github.com/Open-Smartwatch/open-smartwatch-light/releases/tag/v3.3)
     - 3D printable case: ready
 
 Click on an image below to see some demos:
