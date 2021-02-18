@@ -84,6 +84,18 @@ Repositories:
 
 ## Super-Quick-Start Guide 
 
-After adding the OS to VScode with PlatformIO (recommended tutorial: https://youtu.be/JmvMvIphMnY (external link to YouTube)) you can change the config.h.example file in ./include to suit your data, and change it to a header file (remove .example). 
+Here is how to add the OS to VScode with PlatformIO (recommended tutorial: https://youtu.be/JmvMvIphMnY (external link to YouTube)): 
+
+1. Clone this repository:
+
+    git clone --recurse-submodules https://github.com/Open-Smartwatch/open-smartwatch-os.git
+
+2. Open it with VSC:
+
+    code open-smartwatch-os
+
+If you experience troubles with cloning the linked submodules on macOS, check that your VSC is in the applications folder and not in the dowloads. Also, this might help: https://stackoverflow.com/questions/29955500/code-not-working-in-command-line-for-visual-studio-code-on-osx-mac
+
+To build: use Visual Studio Code with the PlatformIO extension, you need to change the config.h.example file in ./include to suit your data, and change it to a header file (remove .example). 
 For uploading, you need to hold the lower left button and then click the reset button (top left). It enables flash mode, the display should get dark. Orientation for the display: USB insert at the left side. 
 App changer works by holding the lower left button to switch to your desired app. 
