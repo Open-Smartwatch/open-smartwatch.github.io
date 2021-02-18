@@ -73,6 +73,44 @@ The goal is to build an open source smartwatch, with step counting, GPS tracking
 
 [![Schematic](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-light/master/docs/img/osw-light-schematic.svg)](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-light/master/docs/img/osw-light-schematic.svg)
 
+## The Big BOM
+
+The parts for the GPS Edition are a super set of the Light Edition, so the following list covers the GPS Edition:
+
+|Part|Description|Aliexpress Link |
+|:--:|:--:|:---|
+|U7 | TTGO T-MICRO32 | https://www.aliexpress.com/item/32869180373.html |
+|U4 | GC9A01 | https://www.aliexpress.com/item/1005001382307998.html |
+|U8 | Quectel L96-M33 | https://www.aliexpress.com/item/32920337260.html |
+|D1 | LED 0805 | https://www.aliexpress.com/item/32947001269.html |
+|U2 | BMA400 | https://www.aliexpress.com/item/4001043933700.html |
+|U6 | CH340E | https://www.aliexpress.com/item/4000171821951.html |
+|U1 | DS3231MZ | https://www.aliexpress.com/item/32962505279.html |
+|U3 | PSRAM | https://www.aliexpress.com/item/4000242457828.html |
+|U10,U13 | XC6209F332MR-G | https://www.aliexpress.com/item/4000687517883.html |
+|U11 | MCP73831T-2ACI/OT SOT23-5 | https://www.aliexpress.com/item/32714249253.html |
+|U9 | TPS2115APWR | https://www.aliexpress.com/item/32612393464.html |
+|U5 | USB-Micro | https://www.aliexpress.com/item/32820570603.html |
+|SW1, SW2, SW4, SW5 | Buttons | https://www.aliexpress.com/item/32870278366.html |
+|XS1 | uSD Slot | https://www.aliexpress.com/item/1005001470093106.html |
+|Q1 | 2N7002 | https://www.aliexpress.com/item/32912312094.html |
+|R1-RN | 0603 SMD R | https://www.aliexpress.com/item/32298348854.html |
+|C5,C6 | 1206 SMD C | https://www.aliexpress.com/item/32956133014.html |
+|C1-CN | 0603 SMD C | https://www.aliexpress.com/item/32841971485.html |
+|R5 | blob of solder | N/A|
+
+### Further Material
+
+This might be useful to give you an orientation of parts used to assemble this project:
+
+|Material | Aliexpress Link |
+|:--|:---|
+|Solder Paste | https://www.aliexpress.com/item/33057598049.html |
+|Desoldering Wire | https://www.aliexpress.com/item/32958719300.html |
+|Flux | https://www.aliexpress.com/item/4000480154850.html |
+|Soldering Iron | https://www.aliexpress.com/item/32860309312.html |
+|Hot Plate | https://www.aliexpress.com/item/32974173898.html |
+
 ## Software 
 
 Repositories:
