@@ -5,15 +5,12 @@
 ## Current Status
 
 * GPS Edition
-    - PCB v2.0: still under development
-    - 3D printable case needs to be redesigned
+    - PCB: still under development
+    - 3D printable case: TODO
 
 * Light Edition
-    - PCB v3.1: final testing
-    - 3D printable case in testing
-
-For both editions, the hardware and software are still under development.
-There are still many improvements to be made. The light edition will be the first version that will be "released".
+    - PCB: [Released v3.2](https://github.com/Open-Smartwatch/open-smartwatch-light/releases/tag/v3.2)
+    - 3D printable case: ready
 
 Click on an image below to see some demos:
 
@@ -40,6 +37,10 @@ The goal is to build an open source smartwatch, with step counting, GPS tracking
 - USB Serial
 - uSD Card (to provide open streetmap tiles)
 
+## Media Coverage
+
+- hackster.io: [Something ESPecially Impressive about the Open-Smartwatch Project](https://www.hackster.io/news/there-s-something-especially-impressive-about-the-opensmartwatch-project-c2c878b983cf)
+
 ## Join the Discussion
 
 * Discussions happen on Discord: [Pauls 3D Things](https://discord.gg/9DK5JY6) 
@@ -49,19 +50,20 @@ The goal is to build an open source smartwatch, with step counting, GPS tracking
 
 ### GPS Edition
 
-* KiCad Project Files: [https://github.com/Open-Smartwatch/kicad-project](https://github.com/Open-Smartwatch/kicad-project)
-* BOM: [https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom_v.html](https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom_v.html)
-* 3D Files: [https://github.com/Open-Smartwatch/3d-files/tree/master/case](https://github.com/Open-Smartwatch/3d-files/tree/master/case)
+* PCB Source Files (KiCAD): [https://github.com/Open-Smartwatch/open-smartwatch-gps](https://github.com/Open-Smartwatch/open-smartwatch-gps)
+* BOM: [https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-gps/blob/master/docs/bom/osw-ibom_v.html](https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-gps/blob/master/docs/bom/osw-ibom_v.html)
+* 3D Files: [https://github.com/Open-Smartwatch/3d-files/tree/master/case-gps](https://github.com/Open-Smartwatch/3d-files/tree/master/case-gps)
 
-[![front](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-top.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-top.svg)
-[![bottom](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-bottom.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-bottom.svg)
+[![front](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-gps/master/docs/img/osw-top.svg)](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-gps/master/docs/img/osw-top.svg)
+[![bottom](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-gps/master/docs/img/osw-bottom.svg)](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-gps/master/docs/img/osw-bottom.svg)
 
-[![Schematic](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/img/osw-schematic.svg)](https://raw.githubusercontent.com/Open-Smartwatch/kicad-project/master/docs/osw-schematic.pdf)
+[![Schematic](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-gps/master/docs/img/osw-schematic.svg)](https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-gps/master/docs/osw-schematic.pdf)
 
 
 ### Light Edition
 
-* KiCad Project Files: [https://github.com/Open-Smartwatch/open-smartwatch-light](https://github.com/Open-Smartwatch/open-smartwatch-light)
+* PCB Source File (KiCAD): [https://github.com/Open-Smartwatch/open-smartwatch-light](https://github.com/Open-Smartwatch/open-smartwatch-light)
+* Order PCB here: [https://aisler.net/p/EBEIQYQD](https://aisler.net/p/EBEIQYQD) (Hint: AISLER sponsored the PCBs for protoyping this project, hence the logo on the PCB ;) )
 * BOM: [https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom.html](https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom.html)
 * 3D Files: [https://github.com/Open-Smartwatch/3d-files/tree/master/case-light](https://github.com/Open-Smartwatch/3d-files/tree/master/case-light)
 
