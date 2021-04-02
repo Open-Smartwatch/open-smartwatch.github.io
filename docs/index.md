@@ -76,4 +76,4 @@ Click on an image below to see some demos:
 
 ## Sponsors
 
-* [Aisler B.V.](https://aisler.net) provided PCBs for the hardware development
+* [Aisler B.V.](https://aisler.net) provided PCBs to support the hardware development
