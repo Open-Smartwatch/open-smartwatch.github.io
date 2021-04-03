@@ -43,6 +43,9 @@ The PCB (KiCAD), Case design files (Blender), and Operating System (C++/Arduino/
 
 ## Ordering
 
+This is project is entirely open source. You can either build it from scratch, or chose from one of the manufacturers below.
+Everything is till in the very beginning of this project, and fully assembled watches will be available soon! Follow this project on [instagram.com/pauls_3d_things/](https://www.instagram.com/pauls_3d_things/) to stay up do date and get notified once new options are available!
+
 ### PCBs
 
 * Light Edition (rev. 3.3): [https://aisler.net/p/ELCCRXOS](https://aisler.net/p/ELCCRXOS) 1.6mm PCB
@@ -57,7 +60,11 @@ The PCB (KiCAD), Case design files (Blender), and Operating System (C++/Arduino/
 * 450mA round LiPo: [https://a.aliexpress.com/_mrvOz8P](https://a.aliexpress.com/_mrvOz8P)
 * 350mA rect. LiPo: [https://www.aliexpress.com/item/4000293204820.html](https://www.aliexpress.com/item/4000293204820.html)
 
-More links will be added as soon as they are available. Until then see the sections on the left.
+### Fully Assembled Watches
+
+* Soon!
+
+More links will be added as soon as they are available.
 
 ## Tech Demos
 
@@ -76,4 +83,4 @@ Click on an image below to see some demos:
 
 ## Sponsors
 
-* [Aisler B.V.](https://aisler.net) provided PCBs to support the hardware development
+* [Aisler B. V.](https://aisler.net) provided PCBs to support the hardware development
