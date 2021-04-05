@@ -29,6 +29,7 @@ The PCB (KiCAD), Case design files (Blender), and Operating System (C++/Arduino/
 * `#opensmartwatch` on [Instagram](https://www.instagram.com/explore/tags/opensmartwatch/) (See what the community creates!)
 * `pauls_3d_things` on [Youtube](https://www.youtube.com/playlist?list=PL7YtNcHw1zWL9PEBSJg6sBpESSBoHjDY6) (Tutorials + Instructions!)
 * hackster.io: [Something ESPecially Impressive about the Open-Smartwatch Project](https://www.hackster.io/news/there-s-something-especially-impressive-about-the-opensmartwatch-project-c2c878b983cf)
+* Linus Tech Tips: [It's time.](https://www.youtube.com/watch?v=xF_SR6aUKHg)
 
 ## Join the Discussion
 
