@@ -50,7 +50,7 @@ Everything is till in the very beginning of this project, and fully assembled wa
 ### PCBs
 
 * Light Edition (rev. 3.3): [https://aisler.net/p/ELCCRXOS](https://aisler.net/p/ELCCRXOS) 1.6mm PCB
-* GPS Edition (rev. 3.1, Pre-Release!) [https://aisler.net/p/RGJUQAJC](https://aisler.net/p/RGJUQAJC) 1.6mm PCB
+* GPS Edition (rev. 3.1, Developer-Release!) [https://aisler.net/p/RGJUQAJC](https://aisler.net/p/RGJUQAJC) 1.6mm PCB
 
 ### Assembled PCBs
 
