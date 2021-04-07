@@ -28,8 +28,9 @@ The PCB (KiCAD), Case design files (Blender), and Operating System (C++/Arduino/
 * `@pauls_3d_things` on [Instagram](https://www.instagram.com/pauls_3d_things/) (Latest Updates!)
 * `#opensmartwatch` on [Instagram](https://www.instagram.com/explore/tags/opensmartwatch/) (See what the community creates!)
 * `pauls_3d_things` on [Youtube](https://www.youtube.com/playlist?list=PL7YtNcHw1zWL9PEBSJg6sBpESSBoHjDY6) (Tutorials + Instructions!)
-* hackster.io: [Something ESPecially Impressive about the Open-Smartwatch Project](https://www.hackster.io/news/there-s-something-especially-impressive-about-the-opensmartwatch-project-c2c878b983cf)
 * Linus Tech Tips: [It's time.](https://www.youtube.com/watch?v=xF_SR6aUKHg)
+* CNX-Software: [LilyGo sells Open-Smartwatch open-source hardware ESP32 watch by “Paul’s 3D Things”](https://www.cnx-software.com/2021/04/07/lilygo-open-smartwatch-open-source-hardware-esp32-watch-by-pauls-3d-things/)
+* hackster.io: [Something ESPecially Impressive about the Open-Smartwatch Project](https://www.hackster.io/news/there-s-something-especially-impressive-about-the-opensmartwatch-project-c2c878b983cf)
 
 ## Join the Discussion
 
