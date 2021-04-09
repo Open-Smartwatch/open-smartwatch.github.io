@@ -29,6 +29,7 @@ The PCB (KiCAD), Case design files (Blender), and Operating System (C++/Arduino/
 * `#opensmartwatch` on [Instagram](https://www.instagram.com/explore/tags/opensmartwatch/) (See what the community creates!)
 * `pauls_3d_things` on [Youtube](https://www.youtube.com/playlist?list=PL7YtNcHw1zWL9PEBSJg6sBpESSBoHjDY6) (Tutorials + Instructions!)
 * Linus Tech Tips: [It's time.](https://www.youtube.com/watch?v=xF_SR6aUKHg)
+* Hackaday: [An Open Source Smart Watch you'd actually wear](https://hackaday.com/2021/04/08/an-open-source-smart-watch-youd-actually-wear/)
 * CNX-Software: [LilyGo sells Open-Smartwatch open-source hardware ESP32 watch by “Paul’s 3D Things”](https://www.cnx-software.com/2021/04/07/lilygo-open-smartwatch-open-source-hardware-esp32-watch-by-pauls-3d-things/)
 * hackster.io: [Something ESPecially Impressive about the Open-Smartwatch Project](https://www.hackster.io/news/there-s-something-especially-impressive-about-the-opensmartwatch-project-c2c878b983cf)
 
@@ -64,7 +65,7 @@ Everything is till in the very beginning of this project, and fully assembled wa
 
 ### Fully Assembled Watches
 
-* Soon!
+* Light Edition (Rectangular LiPo, 20mm straps, Pre-Order, ready ~ May '21): [https://www.makerfabs.com/open-smartwatch.html](https://www.makerfabs.com/open-smartwatch.html)
 
 More links will be added as soon as they are available.
 
