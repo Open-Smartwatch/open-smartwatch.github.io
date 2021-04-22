@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Light Edition - Open-SmartWatch</title>
+  <title>Community Forks - Open-SmartWatch</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Light Edition";
-    var mkdocs_page_input_path = "1_light-edition.md";
+    var mkdocs_page_name = "Community Forks";
+    var mkdocs_page_input_path = "5_community_forks.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -51,20 +51,8 @@
                     <li class="toctree-l1"><a class="reference internal" href="..">Overview</a>
                     </li>
                 </ul>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Light Edition</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#releases">Releases</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#schematic">Schematic</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#pcb">PCB</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#bom">BOM</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#kicad-sources">KiCAD Sources</a>
-    </li>
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../1_light-edition/">Light Edition</a>
                     </li>
                 </ul>
                 <ul>
@@ -79,8 +67,12 @@
                     <li class="toctree-l1"><a class="reference internal" href="../4_flashing/">Upload Software</a>
                     </li>
                 </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../5_community_forks/">Community Forks</a>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Community Forks</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#by-electro707-wip">by Electro707 (WIP)</a>
+    </li>
+    </ul>
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Build your Own</span></p>
@@ -113,7 +105,7 @@
     
       
     
-    <li>Light Edition</li>
+    <li>Community Forks</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -124,26 +116,22 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="light-edition">Light Edition</h1>
-<h2 id="releases">Releases</h2>
+                <h1 id="community-forks">Community Forks</h1>
+<h2 id="by-electro707-wip">by Electro707 (WIP)</h2>
+<p>Changes with this design:</p>
 <ul>
-<li>Release v3.1<ul>
-<li><a href="https://github.com/Open-Smartwatch/open-smartwatch-light/releases/tag/v3.3">Sources/Gerbers</a>)</li>
-<li><a href="https://aisler.net/p/ELCCRXOS">PCB via Aisler</a></li>
+<li>Replace the battery charger and power mux combo with an integrated PowerPath TI charger IC (BQ24230RGT)</li>
+<li>Replace the module with an ESP32-PICO-MINI-02</li>
+<li>Replace the connector with a TypeC</li>
+<li>Replace the RTC with a smaller package one (RV-8523-C3)</li>
+<li>Added a 3D compass/accelerometer/gyroscope IC</li>
+<li>Added a temperature/humidity/pressure sensor (BME280)</li>
 </ul>
-</li>
+<p>Repositories:</p>
+<ul>
+<li><a href="https://github.com/Electro707/open-smartwatch-light/tree/lora">With lora - WIP - untested.</a></li>
+<li><a href="https://github.com/Electro707/open-smartwatch-light/tree/e707">Without lora - WIP - untested.</a></li>
 </ul>
-<p>The following files always point to the latest versions committed to GitHub.</p>
-<h2 id="schematic">Schematic</h2>
-<p><a href="https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-light/master/docs/img/osw-light-schematic.svg"><img alt="Schematic" src="https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-light/master/docs/img/osw-light-schematic.svg" /></a></p>
-<h2 id="pcb">PCB</h2>
-<p><a href="https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-light/master/docs/img/osw-light-top.svg"><img alt="front" src="https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-light/master/docs/img/osw-light-top.svg" /></a>
-<a href="https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-light/master/docs/img/osw-light-bottom.svg"><img alt="bottom" src="https://raw.githubusercontent.com/Open-Smartwatch/open-smartwatch-light/master/docs/img/osw-light-bottom.svg" /></a></p>
-<h2 id="bom">BOM</h2>
-<p>See: <a href="https://htmlpreview.github.io/?https://github.com/Open-Smartwatch/open-smartwatch-light/blob/master/docs/bom/osw-light-ibom.html">here</a></p>
-<h2 id="kicad-sources">KiCAD Sources</h2>
-<p>See:
-<a href="https://github.com/Open-Smartwatch/open-smartwatch-light">https://github.com/Open-Smartwatch/open-smartwatch-light</a></p>
               
             </div>
           </div>
@@ -151,10 +139,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../2_gps-edition/" class="btn btn-neutral float-right" title="GPS Edition">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../Build%20your%20Own/1_assembly/" class="btn btn-neutral float-right" title="Assembly">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href=".." class="btn btn-neutral" title="Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../4_flashing/" class="btn btn-neutral" title="Upload Software"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -180,10 +168,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../4_flashing/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../2_gps-edition/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../Build%20your%20Own/1_assembly/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
