@@ -7,7 +7,7 @@ It consists of hardware modules, 3D printable cases and a custom operating syste
 
 There are currently two versions, a [GPS edition](/2_gps-edition/) (pre-released, work in progress) and a [Light edition](/1_light-edition/) (released), which share the following hardware:
 
-* EPS32-micro-D4: 2x240MHz, 320KB RAM
+* ESP32-pico-D4: 2x240MHz, 320KB RAM
 * Bluetooth 4.2 BR/EDR BLE
 * WiFi 2.4GHz 802.11 b/g/n
 * GC9A01 240x240 16bit TFT display (round)
