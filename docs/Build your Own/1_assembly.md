@@ -5,4 +5,4 @@ If you don't need the acceleromter, you can hand solder everything with a little
 
 See the respective watches for links to BOM/PCB and source files.
 
-The list of components from [AlieExpress](2_aliexpress.md) is only to give an orientation.
+The list of components from [AliExpress](2_aliexpress.md) is only to give an orientation.
