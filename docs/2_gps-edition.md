@@ -2,7 +2,7 @@
 
 ## Releases
 
-- Pre-Release v3.1
+- Pre-Release v3.1 (Outdated, V4.4 is work in progress)
     - [Sources/Gerbers](https://github.com/Open-Smartwatch/open-smartwatch-gps/releases/tag/v3.1)
     - [PCB via Aisler](https://aisler.net/p/RGJUQAJC)
 

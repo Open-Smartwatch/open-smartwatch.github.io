@@ -37,10 +37,15 @@ The PCB (KiCAD), Case design files (Blender), and Operating System (C++/Arduino/
 
 * Discord: [Pauls 3D Things](https://discord.gg/9DK5JY6)
 
+## Getting Started
+
+Please watch this to get familiar with the first steps: [https://www.youtube.com/watch?v=p-mDOIUr-rQ&ab_channel=pauls_3d_things](https://www.youtube.com/watch?v=p-mDOIUr-rQ&ab_channel=pauls_3d_things)
+The video explains how to put the watch into flash mode. Read the readme for a guide to flash the firmware from source: [https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/Readme.md](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/Readme.md)
+
 ## Repositories
 
-* [https://github.com/Open-Smartwatch/open-smartwatch-gps](https://github.com/Open-Smartwatch/open-smartwatch-gps)
-* [https://github.com/Open-Smartwatch/open-smartwatch-light](https://github.com/Open-Smartwatch/open-smartwatch-light)
+* [https://github.com/Open-Smartwatch/open-smartwatch-gps (work in progress)](https://github.com/Open-Smartwatch/open-smartwatch-gps)
+* [https://github.com/Open-Smartwatch/open-smartwatch-light (v3.3)](https://github.com/Open-Smartwatch/open-smartwatch-light)
 * [https://github.com/Open-Smartwatch/open-smartwatch-os](https://github.com/Open-Smartwatch/open-smartwatch-os)
 * [https://github.com/Open-Smartwatch/3d-files](https://github.com/Open-Smartwatch/3d-files)
 
@@ -65,7 +70,7 @@ Everything is till in the very beginning of this project, and fully assembled wa
 
 ### Fully Assembled Watches
 
-* Light Edition (Rectangular LiPo, 20mm straps, Pre-Order, ready ~ May '21): [https://www.makerfabs.com/open-smartwatch.html](https://www.makerfabs.com/open-smartwatch.html)
+* Light Edition (Rectangular LiPo, 20mm straps): [https://www.makerfabs.com/open-smartwatch.html](https://www.makerfabs.com/open-smartwatch.html)
 
 More links will be added as soon as they are available.
 
