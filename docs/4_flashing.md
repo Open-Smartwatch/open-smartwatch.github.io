@@ -14,6 +14,11 @@ Install `git` from [https://git-scm.com](https://git-scm.com).
 
 The Open-Smartwatch uses a `ch340` for USB to serial. Please install the drivers from the manufacturer: [http://www.wch-ic.com/downloads/CH341SER_ZIP.html](http://www.wch-ic.com/downloads/CH341SER_ZIP.html)
 
+#### Fixing `error: unknown type name ‘wait_queue_t’; did you mean ‘wait_event’?`
+
+On Fedora Silverblue 34 `make` outputs `error: unknown type name ‘wait_queue_t’; did you mean ‘wait_event’?`.
+This can be fixed by using [this fork from juliagoda](https://github.com/juliagoda/CH341SER).
+
 ## Cloning the Repository
 
 Clone the source code repository **recursively**:
