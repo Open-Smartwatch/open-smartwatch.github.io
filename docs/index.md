@@ -5,7 +5,11 @@
 The Open-SmartWatch is an open source project created by [@pauls_3d_things](https://www.instagram.com/pauls_3d_things/)/[p3dt.net](https://p3dt.net).
 It consists of hardware modules, 3D printable cases and a custom operating system to build smartwatches with the goal that they can be assembled, repaired, and modified by everyone.
 
-Make sure to check out the [Apps](/Apps/), to see what the watch can do!
+Make sure to check out the apps to see what the watch can do!
+
+* [Watchfaces](/Apps/01_watchfaces.html)
+* [Tools](/Apps/02_tools.html)
+* [Games](/Apps/03_games.html)
 
 ## Specifications
 
