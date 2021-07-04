@@ -1,6 +1,6 @@
 # Community Forks
 
-## by Electro707 (WIP)
+## by Electro707 (Work in Progress)
 
 Changes with this design:
 

@@ -1,2 +1,26 @@
 site_name: Open-SmartWatch
 theme: readthedocs
+site_url: http://open-smartwatch.github.io/
+
+nav:
+- Home: 'index.md'
+- Watches:
+   - 'Gallery': 'gallery/gallery-main.md'
+   - 'Light Edition': 'watches/light-edition.md'
+   - 'GPS Edition': 'watches/gps-edition.md'
+   - 'Community Forks': 'watches/community-forks.md'
+- Resources:
+  - 'Hardware': 'resources/hardware.md'
+  - 'Firmware': 'resources/firmware.md'
+  - '3D Files': 'resources/3d-files.md'
+- OSW Apps:
+  - 'Menu Navigation': 'apps/navigation.md'
+  - 'Watchfaces': 'apps/watchfaces.md'
+  - 'Tools': 'apps/tools.md'
+  - 'Games': 'apps/games.md'
+- 'HowTos':
+  - 'Get Design Software': 'howto/software.md'
+  - 'Assembly Note': 'howto/assembly.md'
+  - 'Find Parts on Aliexpress': 'howto/aliexpress.md'
+  - 'Additional Soldeirng Tools': 'howto/hardware.md'
+

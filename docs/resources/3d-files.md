@@ -4,6 +4,8 @@
 
 The 3D case design is optimized for FDM based 3D printers.
 
+The main repository is here: [https://github.com/Open-Smartwatch/3d-files](https://github.com/Open-Smartwatch/3d-files)
+
 ## Cases
 
 The naming is `case`-`gps/light`-`<pcb-thickness>`-`<strap-type>`

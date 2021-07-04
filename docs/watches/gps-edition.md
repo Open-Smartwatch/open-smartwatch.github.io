@@ -1,8 +1,21 @@
 # GPS Edition
 
+## Specifications
+
+* ESP32-pico-D4: 2x240MHz, 320KB RAM
+* Bluetooth 4.2 BR/EDR BLE
+* WiFi 2.4GHz 802.11 b/g/n
+* GC9A01 240x240 16bit TFT display (round)
+* BMA400 Accelerometer + Pedometer
+* MCP73831 LiPo Charger
+* CH340E USB Serial
+* Quectel L96 GPS module
+* 4MB RAM
+* microSD
+
 ## Releases
 
-- Pre-Release v3.1 (Outdated, V4.4 is work in progress)
+- Pre-Release v3.1 (Outdated, V5.0 is work in progress)
     - [Sources/Gerbers](https://github.com/Open-Smartwatch/open-smartwatch-gps/releases/tag/v3.1)
     - [PCB via Aisler](https://aisler.net/p/RGJUQAJC)
 

@@ -1,4 +1,10 @@
-# Upload Software
+# Firmware
+
+This page describes the requirements to manually flash the firmware.
+
+Also check the latest readme file within the software repository: [https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/Readme.md](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/Readme.md)
+
+Watch this video: [https://www.youtube.com/watch?v=p-mDOIUr-rQ&ab_channel=pauls_3d_things](https://www.youtube.com/watch?v=p-mDOIUr-rQ&ab_channel=pauls_3d_things)
 
 ## Requirements
 

@@ -1,24 +1,6 @@
-# Tools
+# Hardware Tools
 
-The software used to create this project is also open source!
-
-## Software
-
-The PCBs are designed with KiCAD: [https://kicad.org](https://kicad.org)
-
-<img src="/assets/screenshots/kicad-schematics.jpg" width="512px" />
-
-<img src="/assets/screenshots/kicad-pcb.jpg" width="512px" />
-
-
-The 3D Design files are made with Blender: [https://www.blender.org](https://www.blender.org)
-
-<img src="/assets/screenshots/blender.jpg" width="512px" />
-
-
-## Hardware
-
-This is an incomplete list of tools you might need to build an Open-Smartwatch on your own.
+This is an incomplete list of tools that might help you build an Open-Smartwatch on your own.
 
 |Material | Aliexpress Link |
 |:--|:---|
