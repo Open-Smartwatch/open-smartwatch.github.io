@@ -5,6 +5,10 @@
 The Open-SmartWatch is an open source project created by [@pauls_3d_things](https://www.instagram.com/pauls_3d_things/)/[p3dt.net](https://p3dt.net).
 It consists of hardware modules, 3D printable cases and a custom operating system to build smartwatches with the goal that they can be assembled, repaired, and modified by everyone.
 
+Make sure to check out the [Apps](/Apps/), to see what the watch can do!
+
+## Specifications
+
 There are currently two versions, a [GPS edition](/2_gps-edition/) (pre-released, work in progress) and a [Light edition](/1_light-edition/) (released), which share the following hardware:
 
 * ESP32-pico-D4: 2x240MHz, 320KB RAM
