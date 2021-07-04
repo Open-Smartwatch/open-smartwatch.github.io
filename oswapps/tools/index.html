@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   
-  <link rel="canonical" href="http://open-smartwatch.github.io/gallery/gallery-main/">
+  <link rel="canonical" href="http://open-smartwatch.github.io/oswapps/tools/">
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Gallery - Open-SmartWatch</title>
+  <title>Tools - Open-SmartWatch</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../../css/theme.css" />
@@ -18,9 +18,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Gallery";
-    var mkdocs_page_input_path = "gallery/gallery-main.md";
-    var mkdocs_page_url = "/gallery/gallery-main/";
+    var mkdocs_page_name = "Tools";
+    var mkdocs_page_input_path = "oswapps/tools.md";
+    var mkdocs_page_url = "/oswapps/tools/";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
@@ -51,12 +51,8 @@
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Watches</span></p>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Gallery</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#light-edition-builds">Light Edition Builds</a>
-    </li>
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../gallery/gallery-main/">Gallery</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../../watches/light-edition/">Light Edition</a>
                     </li>
@@ -75,12 +71,24 @@
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">OSW Apps</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../../oswapps/watchfaces/">Watchfaces</a>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../watchfaces/">Watchfaces</a>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../../oswapps/tools/">Tools</a>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Tools</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#config-app">Config App</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#manual-time-setting">Manual Time Setting</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stop-watch">Stop Watch</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#water-level">Water Level</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#more">More</a>
+    </li>
+    </ul>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../../oswapps/games/">Games</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../games/">Games</a>
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">HowTos</span></p>
@@ -115,11 +123,11 @@
     
       
         
-          <li>Watches &raquo;</li>
+          <li>OSW Apps &raquo;</li>
         
       
     
-    <li>Gallery</li>
+    <li>Tools</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -131,16 +139,58 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="gallery">Gallery</h1>
-<h2 id="light-edition-builds">Light Edition Builds</h2>
-<p><a href="/assets/gallery/light-edition/p3dt-00.jpg" target="_blank"><img src="/assets/gallery/light-edition/p3dt-00.jpg" width="270px" style="float:left; margin-right:30px"/></a></p>
+                <h1 id="tools">Tools</h1>
+<h2 id="config-app">Config App</h2>
+<p><img src="/assets/apps/tools/app_config_osw.png" width="256px" style="float:left; margin-right:20px"/>
+<strong>The</strong> configuration app. Once connected to the WiFi it starts a webserver that allows you to access and modify your watch's configuration as well as upload new firmware images.
+Open the webpage <code>http://192.168.1.119/</code> (the IP will change according to your local WiFi network), in your browser. Use the username <code>admin</code> as well as the password shown on the watch screen to authenticate.</p>
 <ul>
-<li>3D-Files: <a href="https://github.com/Open-Smartwatch/3d-files/tree/master/case-light-round-1.6mm-pcb-20mm-straps-flex-buttons">Light-Round-Flex-Buttons</a></li>
-<li>Maker: <a href="https://instagram.com/pauls_3d_things">Paul</a></li>
-<li>Outer case: PLA (0.2mm layers)</li>
-<li>Inner case: black TPU (0.2mm layers)</li>
+<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/tools/config_mgmt.cpp">config_mgmt.cpp</a></li>
+<li>Authors: <a href="github.com/Simonmicro">Simonmicro</a>, <a href="github.com/pauls-3d-things">pauls-3d-things</a></li>
+</ul>
+<p><a href="/assets/apps/tools/www_config_app_1.png" target="_blank"><img src="/assets/apps/tools/www_config_app_1.png" width="320px" style="float:left; margin-right:20px"/></a>
+<a href="/assets/apps/tools/www_config_app_4.png" target="_blank"><img src="/assets/apps/tools/www_config_app_4.png" width="320px" style="float:left; margin-right:20px"/></a>
+<a href="/assets/apps/tools/www_config_app_3.png" target="_blank"><img src="/assets/apps/tools/www_config_app_3.png" width="320px" style="float:left; margin-right:20px"/></a>
+<a href="/assets/apps/tools/www_config_app_2.png" target="_blank"><img src="/assets/apps/tools/www_config_app_2.png" width="320px" style="float:left; margin-right:20px"/></a></p>
+<div style="clear: both; margin-bottom:20px"></div>
+
+<h2 id="manual-time-setting">Manual Time Setting</h2>
+<p><img src="/assets/apps/tools/app_config_time_manual_osw.png" width="256px" style="float:left; margin-right:20px"/>
+If you have no WiFi connection, you can manually set the time and date with the manual configuration app.</p>
+<ul>
+<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/tools/time_config.cpp">time_config.cpp</a></li>
+<li>Authors: <a href="github.com/richtepa">richtepa</a></li>
 </ul>
 <div style="clear: both; margin-bottom:20px"></div>
+
+<h2 id="stop-watch">Stop Watch</h2>
+<p><img src="/assets/apps/tools/app_tool_stopwatch_osw.png" width="256px" style="float:left; margin-right:20px"/>
+A stopwatch to count seconds.</p>
+<ul>
+<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/main/stopwatch.cpp">stopwatch.cpp</a></li>
+<li>Authors: <a href="github.com/pauls-3d-things">pauls-3d-things</a></li>
+</ul>
+<div style="clear: both; margin-bottom:20px"></div>
+
+<h2 id="water-level">Water Level</h2>
+<p><img src="/assets/apps/tools/app_tool_waterlevel01_osw.png" width="256px" style="float:left; margin-right:20px"/>
+A water level, to test the acceleration sensor.</p>
+<ul>
+<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/tools/water_level.cpp">water_level.cpp</a></li>
+<li>Authors: <a href="github.com/pauls-3d-things">pauls-3d-things</a></li>
+</ul>
+<div style="clear: both; margin-bottom:20px"></div>
+
+<p><img src="/assets/apps/tools/app_tool_waterlevel02_osw.png" width="256px" style="float:left; margin-right:20px"/></p>
+<p>The second screen, axis view.</p>
+<ul>
+<li>Source: <a href="https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/tools/water_level.cpp">water_level.cpp</a></li>
+<li>Authors:  <a href="github.com/GPaddle">GPaddle</a></li>
+</ul>
+<div style="clear: both; margin-bottom:20px"></div>
+
+<h2 id="more">More</h2>
+<p>Want to add your tool to this project? Fork this repository: <a href="https://github.com/Open-Smartwatch/open-smartwatch.github.io/tree/source">https://github.com/Open-Smartwatch/open-smartwatch.github.io/tree/source</a> and create a pull request. Join the discord server if you have questions: <a href="https://discord.gg/9DK5JY6">https://discord.gg/9DK5JY6</a>.</p>
               
             </div>
           </div>
@@ -148,10 +198,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../../watches/light-edition/" class="btn btn-neutral float-right" title="Light Edition">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../games/" class="btn btn-neutral float-right" title="Games">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../.." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../watchfaces/" class="btn btn-neutral" title="Watchfaces"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -177,10 +227,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../.." style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../watchfaces/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../../watches/light-edition/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../games/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
