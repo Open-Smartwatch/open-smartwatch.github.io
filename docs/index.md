@@ -8,9 +8,9 @@ It consists of hardware modules, 3D printable cases and a custom operating syste
 
 Check out the apps to see what the watch can do!
 
-* [Watchfaces](/oswapps/watchfaces.html)
-* [Tools](/oswapps/tools.html)
-* [Games](/oswapps/games.html)
+* [Watchfaces](/oswapps/watchfaces.md)
+* [Tools](/oswapps/tools.md)
+* [Games](/oswapps/games.md)
 
 See the following pages for:
 
