@@ -14,7 +14,6 @@ nav:
   - 'Firmware': 'resources/firmware.md'
   - '3D Files': 'resources/3d-files.md'
 - OSW Apps:
-  - 'Menu Navigation': 'apps/navigation.md'
   - 'Watchfaces': 'apps/watchfaces.md'
   - 'Tools': 'apps/tools.md'
   - 'Games': 'apps/games.md'
