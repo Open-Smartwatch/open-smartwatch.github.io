@@ -14,9 +14,9 @@ nav:
   - 'Firmware': 'resources/firmware.md'
   - '3D Files': 'resources/3d-files.md'
 - 'OSW Apps':
-  - 'Watchfaces': 'apps/watchfaces.md'
-  - 'Tools': 'apps/tools.md'
-  - 'Games': 'apps/games.md'
+  - 'Watchfaces': 'oswapps/watchfaces.md'
+  - 'Tools': 'oswapps/tools.md'
+  - 'Games': 'oswapps/games.md'
 - 'HowTos':
   - 'Get Design Software': 'howto/software.md'
   - 'Assembly Note': 'howto/assembly.md'
