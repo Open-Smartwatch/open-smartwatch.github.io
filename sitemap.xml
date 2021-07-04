@@ -1,62 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>None</loc>
+         <loc>http://open-smartwatch.github.io/</loc>
          <lastmod>2021-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>http://open-smartwatch.github.io/apps/games/</loc>
          <lastmod>2021-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>http://open-smartwatch.github.io/apps/tools/</loc>
          <lastmod>2021-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>http://open-smartwatch.github.io/apps/watchfaces/</loc>
          <lastmod>2021-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>http://open-smartwatch.github.io/gallery/gallery-main/</loc>
          <lastmod>2021-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>http://open-smartwatch.github.io/howto/aliexpress/</loc>
          <lastmod>2021-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>http://open-smartwatch.github.io/howto/assembly/</loc>
          <lastmod>2021-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>http://open-smartwatch.github.io/howto/hardware/</loc>
          <lastmod>2021-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>http://open-smartwatch.github.io/howto/software/</loc>
          <lastmod>2021-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>http://open-smartwatch.github.io/resources/3d-files/</loc>
          <lastmod>2021-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>http://open-smartwatch.github.io/resources/firmware/</loc>
          <lastmod>2021-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>http://open-smartwatch.github.io/resources/hardware/</loc>
+         <lastmod>2021-07-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://open-smartwatch.github.io/watches/community-forks/</loc>
+         <lastmod>2021-07-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://open-smartwatch.github.io/watches/gps-edition/</loc>
+         <lastmod>2021-07-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://open-smartwatch.github.io/watches/light-edition/</loc>
          <lastmod>2021-07-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
