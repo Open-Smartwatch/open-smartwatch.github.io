@@ -69,13 +69,31 @@
                     </li>
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">3D Files Light Edition</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#important-assembly-notes">Important Assembly Notes</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#print-settings">Print Settings</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#fdm">FDM</a>
+    </li>
+        </ul>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#round-lipo">Round LiPo</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#light-flex-buttons-20mm-straps">Light Flex Buttons (20mm Straps)</a>
     </li>
         </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#rectangular-lipo-20mm-straps">Rectangular LiPo (20mm Straps)</a>
+    <li class="toctree-l2"><a class="reference internal" href="#rectangular-lipo">Rectangular LiPo</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#basic-case-20mm-straps">Basic Case (20mm Straps)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#basic-case-printed-straps">Basic Case (Printed Straps)</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#prusa-sl1-supports">Prusa SL1 Supports</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
     </li>
     </ul>
                     </li>
@@ -140,11 +158,22 @@
             <div class="section">
               
                 <h1 id="3d-files-light-edition">3D Files Light Edition</h1>
-<p>There are a range of design files for the Light Edition.
+<p>There are a range of design files for the Light Edition, see the main repository here:  <a href="https://github.com/Open-Smartwatch/3d-files">https://github.com/Open-Smartwatch/3d-files</a>.
+The 3D case designs are optimized for FDM based 3D printers.
 The major difference of the designs is for which LiPo battery it has been created.
 See <a href="../hardware/">Hardware</a> for the recommended batteries.</p>
 <p><em>Note about PCB thickness:</em> Most of the cases are designed for a 1.6mm PCB, which should also fit a 0.8mm PCB.
 If the file name explicitely says 0.8mm, it will not fit a 1.6mm PCB. If you create case designs, please keep this in mind and add the pcb thickness to the file name.</p>
+<h2 id="important-assembly-notes">Important Assembly Notes</h2>
+<p>⚠️⚠️⚠️⚠️ When assembling any watch case, please make sure to</p>
+<ul>
+<li>insulate the flex cable, to avoid shorts when pressing down on the display (best: kapton tape on the entire back of the LCD)</li>
+<li>the current case designs don't have sufficient room to assemble/disassemble the watch more than a few times. <strong>there will be a fix for the cases soon</strong>, until then carefully carve out the case until the display fits with not walls pressing against the flex cable. See <a href="https://github.com/Open-Smartwatch/3d-files/issues/13">3d-files/issues/13</a>.</li>
+</ul>
+<p><img src="/assets/screenshots/case-issue.png" width="256px" /></p>
+<h2 id="print-settings">Print Settings</h2>
+<h3 id="fdm">FDM</h3>
+<p>The cases are or should be designed for a layer height of 0.1mm and 100% infill. All files are printable without support, given the right orientation. Some of the <code>-top</code> parts are face down (rotated 180 degrees), if the underside is not flat. No solid wall/plane should be thinner than 0.8mm.</p>
 <h2 id="round-lipo">Round LiPo</h2>
 <h3 id="light-flex-buttons-20mm-straps">Light Flex Buttons (20mm Straps)</h3>
 <p><img src="/assets/3d-files/light-flex-buttons.png" width="270px" style="float:left; margin-right:30px"/></p>
@@ -158,7 +187,8 @@ If the file name explicitely says 0.8mm, it will not fit a 1.6mm PCB. If you cre
 </ul>
 <div style="clear: both; margin-bottom:20px"></div>
 
-<h2 id="rectangular-lipo-20mm-straps">Rectangular LiPo (20mm Straps)</h2>
+<h2 id="rectangular-lipo">Rectangular LiPo</h2>
+<h3 id="basic-case-20mm-straps">Basic Case (20mm Straps)</h3>
 <p><img src="/assets/3d-files/light-rect.png" width="270px" style="float:left; margin-right:30px"/></p>
 <p>This is a design for the rectangular LiPo. It consists of a top, middle and bottom piece.
 There is an alternative top to allow the insertion of a 36mm glass. <a href="https://github.com/Open-Smartwatch/3d-files/tree/master/case-light-1.6mm-pcb-20mm-straps">Repository</a>.</p>
@@ -170,6 +200,11 @@ There is an alternative top to allow the insertion of a 36mm glass. <a href="htt
 <li><a href="https://github.com/Open-Smartwatch/3d-files/blob/master/case-light-1.6mm-pcb-20mm-straps/case-light-1.6mm-pcb-20mm-straps-buttons-pla.stl">case-light-1.6mm-pcb-20mm-straps-buttons-pla.stl</a></li>
 </ul>
 <div style="clear: both; margin-bottom:20px"></div>
+
+<h3 id="basic-case-printed-straps">Basic Case (Printed Straps)</h3>
+<h4 id="prusa-sl1-supports">Prusa SL1 Supports</h4>
+<p>Light Edition, case 1.6mm pcb, 20mm straps with pregenerated supports: <a href="/assets/downloads/sla-case-v2.sl1">Download</a></p>
+<p><img src="/assets/screenshots/sla-case-v2.png" width="512px" /></p>
               
             </div>
           </div>
