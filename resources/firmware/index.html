@@ -74,6 +74,10 @@
     <li class="toctree-l3"><a class="reference internal" href="#git">Git</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#serial-drivers-ch340">Serial Drivers CH340</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#fixing-error-unknown-type-name-wait_queue_t-did-you-mean-wait_event">Fixing error: unknown type name ‘wait_queue_t’; did you mean ‘wait_event’?</a>
+    </li>
+        </ul>
     </li>
         </ul>
     </li>
@@ -156,6 +160,9 @@
 <p>Install <code>git</code> from <a href="https://git-scm.com">https://git-scm.com</a>.</p>
 <h3 id="serial-drivers-ch340">Serial Drivers CH340</h3>
 <p>The Open-Smartwatch uses a <code>ch340</code> for USB to serial. Please install the drivers from the manufacturer: <a href="http://www.wch-ic.com/downloads/CH341SER_ZIP.html">http://www.wch-ic.com/downloads/CH341SER_ZIP.html</a></p>
+<h4 id="fixing-error-unknown-type-name-wait_queue_t-did-you-mean-wait_event">Fixing <code>error: unknown type name ‘wait_queue_t’; did you mean ‘wait_event’?</code></h4>
+<p>On Fedora Silverblue 34 <code>make</code> outputs <code>error: unknown type name ‘wait_queue_t’; did you mean ‘wait_event’?</code>.
+This can be fixed by using <a href="https://github.com/juliagoda/CH341SER">this fork from juliagoda</a>.</p>
 <h2 id="cloning-the-repository">Cloning the Repository</h2>
 <p>Clone the source code repository <strong>recursively</strong>:</p>
 <pre><code>git clone --recurse-submodules https://github.com/Open-Smartwatch/open-smartwatch-os.git
