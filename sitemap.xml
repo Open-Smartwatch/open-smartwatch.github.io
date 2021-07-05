@@ -46,6 +46,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>http://open-smartwatch.github.io/resources/3d-files-gps-edition/</loc>
+         <lastmod>2021-07-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://open-smartwatch.github.io/resources/3d-files-light-edition/</loc>
+         <lastmod>2021-07-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>http://open-smartwatch.github.io/resources/3d-files/</loc>
          <lastmod>2021-07-05</lastmod>
          <changefreq>daily</changefreq>
