@@ -12,7 +12,8 @@ nav:
 - 'Resources':
   - 'Hardware': 'resources/hardware.md'
   - 'Firmware': 'resources/firmware.md'
-  - '3D Files': 'resources/3d-files.md'
+  - '3D Files Light Edition': 'resources/3d-files-light-edition.md'
+  - '3D Files GPS Edition': 'resources/3d-files-gps-edition.md'
 - 'OSW Apps':
   - 'Watchfaces': 'oswapps/watchfaces.md'
   - 'Tools': 'oswapps/tools.md'

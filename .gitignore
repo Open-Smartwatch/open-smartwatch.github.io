@@ -4,3 +4,5 @@ _site/
 .jekyll-metadata
 site/
 build.sh
+.DS_Store
+*.blend1
