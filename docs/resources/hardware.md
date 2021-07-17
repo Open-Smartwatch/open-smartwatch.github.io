@@ -9,7 +9,7 @@ This is project is entirely open source. You can either build it from scratch, o
 
 ### Assembled PCBs
 
-* Light Edition: [https://a.aliexpress.com/_mKoyMox](https://a.aliexpress.com/_mKoyMox) 1.6mm PCB
+* Light Edition (rev. 3.2): [https://a.aliexpress.com/_mKoyMox](https://a.aliexpress.com/_mKoyMox) 1.6mm PCB
 
 ### Recommended LiPos
 
