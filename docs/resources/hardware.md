@@ -1,6 +1,6 @@
 # Hardware
 
-This is project is entirely open source. You can either build it from scratch, or chose from one of the manufacturers below.
+This project is entirely open source. You can either build it from scratch (using the schematics and 3d-files) or choose from one of the manufacturers below. Please note that the offers may vary in their used hardware revisions.
 
 ### PCBs
 
