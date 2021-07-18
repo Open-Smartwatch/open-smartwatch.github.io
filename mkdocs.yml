@@ -24,3 +24,5 @@ nav:
   - 'Find Parts on Aliexpress': 'howto/aliexpress.md'
   - 'Additional Soldering Tools': 'howto/hardware.md'
 
+extra_css:
+  - stylesheets/tags.css

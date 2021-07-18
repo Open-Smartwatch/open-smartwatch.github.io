@@ -1,6 +1,6 @@
 # Parts via Aliexpress
 
-The links are only examples. Check the related products for better prices or shipping conditions.
+The links are only examples for the Light Edition <span class="tag-rev">3.3</span>. Make sure to check the related products for better prices or shipping conditions.
 
 |Part|Description|Aliexpress Link |
 |:--:|:--:|:---|
