@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="../../css/theme.css" />
   <link rel="stylesheet" href="../../css/theme_extra.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../stylesheets/tags.css" rel="stylesheet" />
   
   <script>
     // Current page data
@@ -72,6 +73,8 @@
     <li class="toctree-l2"><a class="reference internal" href="#recommended-lipos">Recommended LiPos</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#fully-assembled-watches">Fully Assembled Watches</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#revisions">Revisions</a>
     </li>
     </ul>
                     </li>
@@ -143,12 +146,12 @@
 <p>This project is entirely open source. You can either build it from scratch (using the schematics and 3d-files) or choose from one of the manufacturers below. Please note that the offers may vary in their used hardware revisions.</p>
 <h3 id="pcbs">PCBs</h3>
 <ul>
-<li>Light Edition (rev. 3.3): <a href="https://aisler.net/p/ELCCRXOS">https://aisler.net/p/ELCCRXOS</a> 1.6mm PCB</li>
-<li>GPS Edition (rev. 3.1, Developer-Release!) <a href="https://aisler.net/p/RGJUQAJC">https://aisler.net/p/RGJUQAJC</a> 1.6mm PCB</li>
+<li><span class="tag-rev">3.3</span> Light Edition: <a href="https://aisler.net/p/ELCCRXOS">https://aisler.net/p/ELCCRXOS</a> 1.6mm PCB</li>
+<li><span class="tag-rev">3.1</span> GPS Edition: <a href="https://aisler.net/p/RGJUQAJC">https://aisler.net/p/RGJUQAJC</a> 1.6mm PCB</li>
 </ul>
 <h3 id="assembled-pcbs">Assembled PCBs</h3>
 <ul>
-<li>Light Edition (rev. 3.2): <a href="https://a.aliexpress.com/_mKoyMox">https://a.aliexpress.com/_mKoyMox</a> 1.6mm PCB</li>
+<li><span class="tag-rev">3.2</span> Light Edition: <a href="https://a.aliexpress.com/_mKoyMox">https://a.aliexpress.com/_mKoyMox</a> 1.6mm PCB</li>
 </ul>
 <h3 id="recommended-lipos">Recommended LiPos</h3>
 <p>The available 3D printable cases make use of either one of these batteries (light-edition):</p>
@@ -158,9 +161,71 @@
 </ul>
 <h3 id="fully-assembled-watches">Fully Assembled Watches</h3>
 <ul>
-<li>Light Edition (Rectangular LiPo, 20mm straps): <a href="https://www.makerfabs.com/open-smartwatch.html">https://www.makerfabs.com/open-smartwatch.html</a></li>
+<li><span class="tag-rev">3.3</span> Light Edition (Rectangular LiPo, 20mm straps): <a href="https://www.makerfabs.com/open-smartwatch.html">https://www.makerfabs.com/open-smartwatch.html</a></li>
 </ul>
 <p>More links will be added as soon as they are available.</p>
+<h3 id="revisions">Revisions</h3>
+<p>Over time we've released multiple hardware revisions, each with their own set of features (and bugs). The list below should help you getting a quick overview what it means, when you are going to buy a v3.2 board.</p>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Links</th>
+<th>Description</th>
+<th>Known Problems</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tag-rev rev-dev">5.0</span></td>
+<td><a href="">GPS Edition</a></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><span class="tag-rev">3.3</span></td>
+<td><a href="https://github.com/Open-Smartwatch/open-smartwatch-light/releases/tag/v3.3">Light Edition</a></td>
+<td>Same as v3.2, just added antenna cutouts</td>
+<td>See v3.2</td>
+</tr>
+<tr>
+<td><span class="tag-rev">3.2</span></td>
+<td><a href="https://github.com/Open-Smartwatch/open-smartwatch-light/releases/tag/v3.2">Light Edition</a></td>
+<td>First official light release!</td>
+<td>Power delivery is too weak (300mA instead of 500mA),<br>this results in crashes during WiFi usage.</td>
+</tr>
+<tr>
+<td><span class="tag-rev">3.1</span></td>
+<td><a href="https://github.com/Open-Smartwatch/open-smartwatch-gps/releases/tag/v3.1">GPS Edition</a></td>
+<td>Fix page metadata</td>
+<td>Unknown</td>
+</tr>
+<tr>
+<td><span class="tag-rev">3.0</span></td>
+<td><a href="https://github.com/Open-Smartwatch/open-smartwatch-gps/releases/tag/v3.0">GPS Edition</a></td>
+<td>First official GPS release!</td>
+<td>Unknown</td>
+</tr>
+<tr>
+<td><span class="tag-rev">2.2</span></td>
+<td><a href="https://github.com/Open-Smartwatch/open-smartwatch-light/releases/tag/v2.1">Light Edition</a>, <a href="https://github.com/Open-Smartwatch/open-smartwatch-gps/releases/tag/v2.1">GPS Edition</a></td>
+<td>Internal release only.</td>
+<td>Unknown</td>
+</tr>
+<tr>
+<td><span class="tag-rev">2.0</span></td>
+<td><a href="https://github.com/Open-Smartwatch/open-smartwatch-light/releases/tag/v2.0">Light Edition</a>, <a href="https://github.com/Open-Smartwatch/open-smartwatch-gps/releases/tag/v2.0">GPS Edition</a></td>
+<td>Internal release only.</td>
+<td>Unknown</td>
+</tr>
+<tr>
+<td><span class="tag-rev">1.0</span></td>
+<td><a href="https://github.com/Open-Smartwatch/open-smartwatch-light/releases/tag/v1.0">Light Edition</a>, <a href="https://github.com/Open-Smartwatch/open-smartwatch-gps/releases/tag/v1.0">GPS Edition</a></td>
+<td>Internal release only.</td>
+<td>Unknown</td>
+</tr>
+</tbody>
+</table>
               
             </div>
           </div>

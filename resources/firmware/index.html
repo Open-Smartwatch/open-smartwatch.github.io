@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="../../css/theme.css" />
   <link rel="stylesheet" href="../../css/theme_extra.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../stylesheets/tags.css" rel="stylesheet" />
   
   <script>
     // Current page data
@@ -173,7 +174,7 @@ This can be fixed by using <a href="https://github.com/juliagoda/CH341SER">this 
 <h2 id="set-up-configh">Set up config.h</h2>
 <p>Got to the directory <code>include/</code> and copy the <code>config.h.example</code> to <code>config.h</code>.</p>
 <p>Inside <code>include/config.h</code> make sure to adapt the following defines:</p>
-<pre><code class="language-c++">#define WIFI_SSID &quot;yourSSID&quot;
+<pre><code class="c++">#define WIFI_SSID &quot;yourSSID&quot;
 #define WIFI_PASS &quot;yourP4ssw0rd&quot;
 
 #define TIMEZONE 1
@@ -181,6 +182,7 @@ This can be fixed by using <a href="https://github.com/juliagoda/CH341SER">this 
 
 #define DEVICE_NAME &quot;yourDeviceName&quot;
 </code></pre>
+
 <h2 id="uploading">Uploading</h2>
 <p><img src="/assets/uploading.jpg" width="512px"/></p>
 <p><strong>Keep in mind the PCB is flipped when inserted into the watch:</strong></p>

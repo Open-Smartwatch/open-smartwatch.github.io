@@ -1,0 +1,24 @@
+span.tag-rev:before {
+    content: 'v';
+}
+
+span.tag-rev {
+    display: inline-block;
+    background-image: linear-gradient(to top, rgb(20, 120, 0), rgb(80, 255, 0));
+    padding: 0 0.3em;
+    margin: 0.2em;
+    color: white;
+    border-radius: 0.3em;
+}
+
+span.rev-dev:before {
+    content: 'v';
+}
+
+span.rev-dev {
+    background-image: linear-gradient(to top, rgb(120, 20, 0), rgb(205, 100, 0));
+}
+
+span.rev-dev:after {
+    content: ' (in development)';
+}
