@@ -12,9 +12,9 @@
 
 ## Releases
 
-* Release v3.1
-    - [Sources/Gerbers](https://github.com/Open-Smartwatch/open-smartwatch-light/releases/tag/v3.3))
-    - [PCB via Aisler](https://aisler.net/p/ELCCRXOS)
+- For further references and downloads see the [revision history](../resources/hardware.md#revisions).
+    - [Sources/Gerbers](https://github.com/Open-Smartwatch/open-smartwatch-light/releases)
+    - [PCB](../resources/hardware.md#pcbs)
 
 The following files always point to the latest versions committed to GitHub.
 

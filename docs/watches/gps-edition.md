@@ -15,9 +15,9 @@
 
 ## Releases
 
-- Pre-Release v3.1 (Outdated, V5.0 is work in progress)
-    - [Sources/Gerbers](https://github.com/Open-Smartwatch/open-smartwatch-gps/releases/tag/v3.1)
-    - [PCB via Aisler](https://aisler.net/p/RGJUQAJC)
+- For further references and downloads see the [revision history](../resources/hardware.md#revisions).
+    - [Sources/Gerbers](https://github.com/Open-Smartwatch/open-smartwatch-gps/releases)
+    - [PCB](../resources/hardware.md#pcbs)
 
 The following files always point to the latest versions committed to GitHub.
 
