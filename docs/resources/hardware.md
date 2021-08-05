@@ -31,6 +31,7 @@ Over time we've released multiple hardware revisions, each with their own set of
 Version | Links | Description  | Known Problems
 ----------- | ----------- | ------------ | -----------
 <span class="tag-rev rev-dev">5.0</span> | [GPS Edition]() | - | -
+<span class="tag-rev rev-dev">4.0</span> | [Light Edition]() | - | -
 <span class="tag-rev">3.3</span> | [Light Edition](https://github.com/Open-Smartwatch/open-smartwatch-light/releases/tag/v3.3) | Same as v3.2, just added antenna cutouts | See v3.2
 <span class="tag-rev">3.2</span> | [Light Edition](https://github.com/Open-Smartwatch/open-smartwatch-light/releases/tag/v3.2) | First official light release! | Power delivery is too weak (300mA instead of 500mA),<br>this results in crashes during WiFi usage.
 <span class="tag-rev">3.1</span> | [GPS Edition](https://github.com/Open-Smartwatch/open-smartwatch-gps/releases/tag/v3.1) | Fix page metadata | Unknown
