@@ -26,3 +26,4 @@ nav:
 
 extra_css:
   - stylesheets/tags.css
+  - stylesheets/max-width.css
