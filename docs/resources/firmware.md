@@ -1,12 +1,38 @@
 # Firmware
+## Features
+The table below list all currently available features of the OSW-OS. These features can be manually enabled (or disabled) by modifying the `platformio.ini` and adding (or removing) their `-D`-Define lines.
 
+Flag | Description | Requirements
+----------- | ----------- | -----------
+`OSW_FEATURE_STATS_STEPS` | Enable step history (displayed on the watchfaces) | -
+`OSW_FEATURE_WIFI` | Enable all wifi releated functions (services, webinterface) | -
+`OSW_FEATURE_WIFI_APST` | Allow the watch to enable wifi client and station simultaneously | `OSW_FEATURE_WIFI`
+`OSW_FEATURE_WIFI_ONBOOT` | Allow the user to enable the wifi on boot | `OSW_FEATURE_WIFI`
+`OSW_FEATURE_LUA` | Enable LUA scripting support for apps | `LUA_C89_NUMBERS`
+`LUA_C89_NUMBERS` | Needed when compiling with LUA support | -
+`DEBUG=1` | Enables debug logging to the console & additional utilities | -
+`GPS_EDITION` | Configure the build for use with GPS (including apps, api, sensors) | `PROGMEM_TILES`, `BOARD_HAS_PSRAM`
+`PROGMEM_TILES` | Needed when compiling with GPS support | -
+`BOARD_HAS_PSRAM` | Needed when compiling with GPS support | -
+`GPS_EDITION_ROTATED` | Replacement for `GPS_EDITION` to work with flipped boards | -
+
+### Support
+The table below lists which features are available in which version of the OS by default. It is always our goal to also support older hardware revisions, but not all features can run properly using the old schematics.
+
+Flag | `LIGHT_EDITION_V4_0` | `LIGHT_EDITION_V3_3` | `LIGHT_EDITION_V3_2` | `LIGHT_EDITION_DEV_LUA` | `GPS_EDITION_V3_1` | `GPS_EDITION_DEV_ROTATED`
+----------- | ----------- | ----------- | ----------- | ----------- | ----------- | -----------
+`OSW_FEATURE_STATS_STEPS` | ✓ | ✓ | ✓ | ❌ | ✓ | ✓
+`OSW_FEATURE_WIFI` | ✓ | ✓ | ✓ | ❌ | ✓ | ✓
+`OSW_FEATURE_WIFI_APST` | ✓ | ❌ | ❌ | ❌ | ✓ | ✓
+`OSW_FEATURE_WIFI_ONBOOT` | ✓ | ❌ | ❌ | ❌ | ✓ | ✓
+`OSW_FEATURE_LUA` | ❌ | ❌ | ❌ | ✓ | ❌ | ❌
+
+## Prerequisites
 This page describes the requirements to manually flash the firmware.
 
 Also check the latest readme file within the software repository: [https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/Readme.md](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/Readme.md)
 
 Watch this video: [https://www.youtube.com/watch?v=p-mDOIUr-rQ&ab_channel=pauls_3d_things](https://www.youtube.com/watch?v=p-mDOIUr-rQ&ab_channel=pauls_3d_things)
-
-## Requirements
 
 ### Development Environment
 
@@ -35,19 +61,7 @@ Then, open the directory with Visual Studio Code.
 
 ## Set up config.h
 
-Got to the directory `include/` and copy the `config.h.example` to `config.h`.
-
-Inside `include/config.h` make sure to adapt the following defines:
-
-```c++
-#define WIFI_SSID "yourSSID"
-#define WIFI_PASS "yourP4ssw0rd"
-
-#define TIMEZONE 1
-#define DAYLIGHTOFFSET 0
-
-#define DEVICE_NAME "yourDeviceName"
-```
+Got to the directory `include/` and take a look into the `config.h.example` - all instructions are noted there.
 
 ## Uploading
 
