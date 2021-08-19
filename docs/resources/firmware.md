@@ -23,7 +23,7 @@ Flag | `LIGHT_EDITION_V4_0` | `LIGHT_EDITION_V3_3` | `LIGHT_EDITION_V3_2` | `LIG
 ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | -----------
 `OSW_FEATURE_STATS_STEPS` | ✓ | ✓ | ✓ | ❌ | ✓ | ✓
 `OSW_FEATURE_WIFI` | ✓ | ✓ | ✓ | ❌ | ✓ | ✓
-`OSW_FEATURE_WIFI_APST` | ✓ | ❌ | ❌ | ❌ | ✓ | ✓
+`OSW_FEATURE_WIFI_APST` | ❌ | ❌ | ❌ | ❌ | ✓ | ✓
 `OSW_FEATURE_WIFI_ONBOOT` | ✓ | ❌ | ❌ | ❌ | ✓ | ✓
 `OSW_FEATURE_LUA` | ❌ | ❌ | ❌ | ✓ | ❌ | ❌
 
