@@ -70,4 +70,30 @@ Got to the directory `include/` and take a look into the `config.h.example` - al
 **Keep in mind the PCB is flipped when inserted into the watch:**
 
 1. To set the watch into upload mode, you need to hold the lower left button and then click the reset button (top left). This enables flash mode, the display will turn dark.
-2. Press the reset button after uploading
+2. Press the reset button after uploading.
+
+## Troubleshooting
+
+### Check the cable
+
+Usually, a few cables do not have a data transmission role. Try to upload to another cable.
+
+### Check the driver
+
+Check the [driver](https://open-smartwatch.github.io/resources/firmware/#serial-drivers-ch340) insertion.
+
+### Arduino_TFT.h: No such file or directory
+
+You did not clone the repository with the `--recursive-submodules` flag.
+
+!!! note "Tip"
+    After changing the branch, follow the command :
+    `git submodule update`
+
+### 'LANG_STW_START' was not declared in this scope
+
+You did not rename `include/config.h.example`
+
+### Failed to connect to ESP32: Timed out waiting for packet header
+
+You did not hold down BTN1(FLASH) and then tap the RESET button on the watch whilst platform.io was trying to connect.
