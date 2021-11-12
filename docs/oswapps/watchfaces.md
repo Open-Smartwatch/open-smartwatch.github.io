@@ -10,7 +10,7 @@ The default analog watchface.
 Steps are shown in the blue circle, a full rotation is 10800 steps.
 
  * Source: [watchface.cpp](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/watchface.cpp)
- * Author: [pauls-3d-things](github.com/pauls-3d-things)
+ * Author: [pauls-3d-things](https://github.com/pauls-3d-things)
 
 <div style="clear: both; margin-bottom:20px"></div>
 
@@ -22,7 +22,7 @@ The default digital watchface.
 Steps are shown as a number at the bottom of the screen.
 
  * Source: [watchface_digital.cpp](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/watchface_digital.cpp)
- * Author: [rawsignal](github.com/rawsignal)
+ * Author: [rawsignal](https://github.com/rawsignal)
 
 <div style="clear: both"></div>
 
@@ -35,7 +35,7 @@ The default binary watchface.
 Steps are shown as a hexadecimal number at side of the screen.
 
  * Source: [watchface_binary.cpp](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/watchface_binary.cpp)
- * Author: [xasz](github.com/xasz)
+ * Author: [xasz](https://github.com/xasz)
 
 <div style="clear: both"></div>
 
