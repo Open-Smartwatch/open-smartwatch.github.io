@@ -6,7 +6,7 @@
 **The** configuration app. Once connected to the WiFi it starts a webserver that allows you to access and modify your watch's configuration as well as upload new firmware images.
 Open the webpage `http://192.168.1.119/` (the IP will change according to your local WiFi network), in your browser. Use the username `admin` as well as the password shown on the watch screen to authenticate.
 
- * Source: [config_mgmt.cpp](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/tools/config_mgmt.cpp)
+ * Source: [OswAppWebserver.cpp](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/tools/OswAppWebserver.cpp)
  * Authors: [Simonmicro](https://github.com/Simonmicro), [pauls-3d-things](https://github.com/pauls-3d-things)
 
 <a href="/assets/apps/tools/www_config_app_1.png" target="_blank"><img src="/assets/apps/tools/www_config_app_1.png" width="320px" style="float:left; margin-right:20px"/></a>
