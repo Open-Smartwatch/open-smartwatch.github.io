@@ -6,7 +6,7 @@
 An awesome snake game on the open smartwatch!
 
  * Source: [snake_game.cpp](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/games/snake_game.cpp)
- * Authors: [GPaddle](github.com/GPaddle)
+ * Authors: [GPaddle](https://github.com/GPaddle)
 
 <div style="clear: both; margin-bottom:20px"></div>
 
