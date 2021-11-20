@@ -6,7 +6,7 @@ The major difference of the designs is for which LiPo battery it has been create
 See [Hardware](hardware.md) for the recommended batteries.
 
 *Note about PCB thickness:* Most of the cases are designed for a 1.6mm PCB, which should also fit a 0.8mm PCB.
-If the file name explicitely says 0.8mm, it will not fit a 1.6mm PCB. If you create case designs, please keep this in mind and add the pcb thickness to the file name.
+If the file name explicitly says 0.8mm, it will not fit a 1.6mm PCB. If you create case designs, please keep this in mind and add the pcb thickness to the file name.
 
 ## Important Assembly Notes
 
