@@ -33,3 +33,4 @@ See the following pages for:
 ## Sponsors
 
 * [Aisler B. V.](https://aisler.net) provided PCBs to support the hardware development
+* [PCBgogo](https://www.pcbgogo.com) provided PCBs to support the hardware development
