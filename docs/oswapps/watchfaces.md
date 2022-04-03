@@ -26,6 +26,17 @@ Steps are shown as a number at the bottom of the screen.
 
 <div style="clear: both"></div>
 
+### Mix
+
+<img src="/assets/apps/watchfaces/watchface_mix_osw.png" width="256px" style="float:left; margin-right:20px"/>
+The default mix watchface.
+
+Steps are shown as a step-history frame at the bottom of the screen.
+
+ * Source: [watchface_mix.cpp](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/watchface_mix.cpp)
+ * Author: [ruffalolavoisier](https://github.com/RuffaloLavoisier)
+
+<div style="clear: both"></div>
 
 ### Binary
 
