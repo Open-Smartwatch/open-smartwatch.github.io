@@ -27,6 +27,39 @@ If you have no WiFi connection, you can manually set the time and date with the 
 
 <div style="clear: both; margin-bottom:20px"></div>
 
+## Steps stats
+
+<img src="/assets/apps/tools/app_tool_stepsStats_osw.png" width="256px" style="float:left; margin-right:20px"/>
+You can check the steps per day of the week. And you can see the total value for each item and the number for the day.
+
+ * Source: [OswAppStepStats.cpp](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/tools/OswAppStepStats.cpp)
+ * Authors: [ruffalolavoisier](https://github.com/RuffaloLavoisier)
+
+<div style="clear: both; margin-bottom:20px"></div>
+
+## Kcal stats
+
+<img src="/assets/apps/tools/app_tool_kcalStats_osw.png" width="256px" style="float:left; margin-right:20px"/>
+You can check the calorie consumption of the latest date. And you can see the average value for each item and the number for the day.
+
+ * Source: [OswAppKcalStats.cpp](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/tools/OswAppKcalStats.cpp)
+ * Authors: [ruffalolavoisier](https://github.com/RuffaloLavoisier)
+
+<div style="clear: both; margin-bottom:20px"></div>
+
+!!! tip
+    You can use the up and down keys to view other dates.
+
+## Fitness stats
+
+<img src="/assets/apps/tools/app_tool_fitnessStats_osw.png" width="256px" style="float:left; margin-right:20px"/>
+You can see the steps, distance, calorie consumption, and average achievement of all items during the day.
+
+ * Source: [OswAppFitnessStats.cpp](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/tools/OswAppFitnessStats.cpp)
+ * Authors: [ruffalolavoisier](https://github.com/RuffaloLavoisier)
+
+<div style="clear: both; margin-bottom:20px"></div>
+
 ## Stop Watch
 
 <img src="/assets/apps/tools/app_tool_stopwatch_osw.png" width="256px" style="float:left; margin-right:20px"/>
