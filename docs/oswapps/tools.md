@@ -40,6 +40,7 @@ You can check the steps per day of the week. And you can see the total value for
 ## Kcal stats
 
 <img src="/assets/apps/tools/app_tool_kcalStats_osw.png" width="256px" style="float:left; margin-right:20px"/>
+<img src="/assets/apps/tools/app_tool_kcalStats2_osw.png" width="256px" style="float:left; margin-right:20px"/>
 You can check the calorie consumption of the latest date. And you can see the average value for each item and the number for the day.
 
  * Source: [OswAppKcalStats.cpp](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/tools/OswAppKcalStats.cpp)
