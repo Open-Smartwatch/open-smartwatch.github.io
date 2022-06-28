@@ -16,6 +16,15 @@ Flag | Description | Requirements
 `BOARD_HAS_PSRAM` | Needed when compiling with GPS support | -
 `GPS_EDITION_ROTATED` | Replacement for `GPS_EDITION` to work with flipped boards | -
 
+### Other developed available flag
+
+This flag is available on all models.
+
+Flag | Description | Requirements
+----------- | ----------- | -----------
+build_flags = `-D RAW_SCREEN_SERVER` | Capture the watchface and save it as a `*.png` file. | -
+build_flags = `-D ANIMATION` | Animation can be used as the background of the watchface. | -
+
 ### Support
 The table below lists which features are available in which version of the OS by default. It is always our goal to also support older hardware revisions, but not all features can run properly using the old schematics.
 
