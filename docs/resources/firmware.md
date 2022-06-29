@@ -22,8 +22,8 @@ This flag is available on all models.
 
 Flag | Description | Requirements
 ----------- | ----------- | -----------
-build_flags = `-D RAW_SCREEN_SERVER` | Capture the watchface and save it as a `*.png` file. | -
-build_flags = `-D ANIMATION` | Animation can be used as the background of the watchface. | -
+- `RAW_SCREEN_SERVER` | Capture the watchface and save it as a `*.png` file. | -
+- `ANIMATION` | Animation can be used as the background of the watchface. | -
 
 ### Support
 The table below lists which features are available in which version of the OS by default. It is always our goal to also support older hardware revisions, but not all features can run properly using the old schematics.
