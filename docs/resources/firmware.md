@@ -22,7 +22,7 @@ This flag is available on all models.
 
 Flag | Description | Requirements
 ----------- | ----------- | -----------
-- `RAW_SCREEN_SERVER` | Capture the watchface and save it as a `*.png` file. | -
+- `RAW_SCREEN_SERVER` | Capture the watchface and save it as a `*.png` file. | `OSW_FEATURE_WIFI`
 - `ANIMATION` | Animation can be used as the background of the watchface. | -
 
 ### Support
