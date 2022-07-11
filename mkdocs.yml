@@ -22,6 +22,7 @@ nav:
   - 'Tools': 'oswapps/tools.md'
   - 'Games': 'oswapps/games.md'
 - 'HowTos':
+  - 'How to Contribute?': 'howto/contribute.md'
   - 'Get Design Software': 'howto/software.md'
   - 'Assembly Note': 'howto/assembly.md'
   - 'Find Parts on Aliexpress': 'howto/aliexpress.md'
