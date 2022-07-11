@@ -1,6 +1,6 @@
 # How to contribute to the community
 
-## How t open a pull-request
+## How to open a pull-request
 
 Before you open a PR, open an issue about PR to hear others opinions - maybe someone is already working on it.
 
