@@ -76,6 +76,19 @@ Steps are shown as a hexadecimal number at side of the screen.
 
 <div style="clear: both"></div>
 
+### Monotimer
+
+<img src="/assets/apps/watchfaces/watchface_monotimer_osw.png" width="256px" style="float:left; margin-right:20px"/>
+The default Monotimer watchface.
+
+Since a monotimer-clock has only a single hand, you read both the hours and minutes from the position of it. First, you read the hours by finding the nearest hour from the left (clockwise) of the hand. Then you read the Minutes by looking at the ticks between the hour tick and the hand. The smallest tick stands for a 5 minute intervall, the next bigger one for 15 minutes and the biggest one for 30 minutes (see image). For example, the clock from the image shows the time between 9:25 and 9:30.
+
+The steps are displayed in the center of the clock. If the daily step goal is reached, the text color changes from InfoColor to SucessColor.
+
+ * Source: [OswAppWatchfaceMonotimer.cpp](https://github.com/Open-Smartwatch/open-smartwatch-os/blob/master/src/apps/watchfaces/OswAppWatchfaceMonotimer.cpp)
+ * Author: [David Schramm](https://github.com/daschr)
+
+<div style="clear: both"></div>
 
 ## More
 
