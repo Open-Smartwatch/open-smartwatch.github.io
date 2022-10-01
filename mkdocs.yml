@@ -7,7 +7,6 @@ markdown_extensions:
 
 nav:
 - 'Home': 'index.md'
-- 'Code of Conduct': 'coc.md'
 - 'Watches':
    - 'Gallery': 'gallery/gallery-main.md'
    - 'Light Edition': 'watches/light-edition.md'
@@ -28,6 +27,7 @@ nav:
   - 'Assembly Note': 'howto/assembly.md'
   - 'Find Parts on Aliexpress': 'howto/aliexpress.md'
   - 'Additional Soldering Tools': 'howto/hardware.md'
+- 'Code of Conduct': 'coc.md'
 
 extra_css:
   - stylesheets/tags.css
