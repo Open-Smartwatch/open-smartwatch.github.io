@@ -125,7 +125,7 @@ We have seen a number of "charge only" cables in the community. Try to upload us
 
 #### Check the driver
 
-Check the [driver](https://open-smartwatch.github.io/resources/firmware/#serial-drivers-ch340) insertion.
+Check the driver insertion.
 
 #### Arduino_TFT.h: No such file or directory
 
