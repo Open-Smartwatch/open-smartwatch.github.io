@@ -14,13 +14,14 @@ nav:
    - 'Community Forks': 'watches/community-forks.md'
 - 'Resources':
   - 'Hardware': 'resources/hardware.md'
-  - 'Firmware': 'resources/firmware.md'
   - '3D Files Light Edition': 'resources/3d-files-light-edition.md'
   - '3D Files GPS Edition': 'resources/3d-files-gps-edition.md'
-- 'OSW Apps':
-  - 'Watchfaces': 'oswapps/watchfaces.md'
-  - 'Tools': 'oswapps/tools.md'
-  - 'Games': 'oswapps/games.md'
+- 'Firmware': # This section will be moved into the OSW-OS repository!
+  - 'OSW-OS': 'firmware/osw_os.md'
+  - 'Applications':
+    - 'Watchfaces': 'firmware/apps/watchfaces.md'
+    - 'Tools': 'firmware/apps/tools.md'
+    - 'Games': 'firmware/apps/games.md'
 - 'HowTos':
   - 'How to Contribute?': 'howto/contribute.md'
   - 'Get Design Software': 'howto/software.md'

@@ -3,6 +3,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 site/
+public/
 build.sh
 .DS_Store
 *.blend1

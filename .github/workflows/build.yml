@@ -1,0 +1,50 @@
+name: Clone OSW-OS, merge its documentation, build the result and publish it to GitHub Pages
+
+on:
+  push:
+    branches: ["master"]
+  schedule:
+    - cron:  '0 0 * * *' # Automatic daily rebuild, to keep the documentation up-to-date even if maintainers forget to trigger a rebuild manually
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install poetry
+        run: pipx install poetry
+      - name: Install dependencies
+        run: poetry install
+      - name: Clone OSW-OS
+        run: git clone --depth 1 https://github.com/Open-Smartwatch/open-smartwatch-os.git
+      - name: Merge docs from OSW-OS
+        run: rsync -avh --progress open-smartwatch-os/docs/ docs # rsync is preinstalled and used to merge the two folders
+      - name: Merge docs config from OSW-OS
+        run: poetry run python3 .github/merge_configs.py mkdocs.yml docs/config.yml
+      - name: Build the documentation
+        run: poetry run mkdocs build -c -s -d public
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: './public/'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

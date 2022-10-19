@@ -1,4 +1,4 @@
-# Firmware
+# OSW-OS
 
 This page describes which software you'll need and how to manually flash the firmware.
 
