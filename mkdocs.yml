@@ -16,12 +16,7 @@ nav:
   - 'Hardware': 'resources/hardware.md'
   - '3D Files Light Edition': 'resources/3d-files-light-edition.md'
   - '3D Files GPS Edition': 'resources/3d-files-gps-edition.md'
-- 'Firmware': # This section will be moved into the OSW-OS repository!
-  - 'OSW-OS': 'firmware/osw_os.md'
-  - 'Applications':
-    - 'Watchfaces': 'firmware/apps/watchfaces.md'
-    - 'Tools': 'firmware/apps/tools.md'
-    - 'Games': 'firmware/apps/games.md'
+- 'Firmware': [] # This section was moved into the OSW-OS repository
 - 'HowTos':
   - 'How to Contribute?': 'howto/contribute.md'
   - 'Get Design Software': 'howto/software.md'

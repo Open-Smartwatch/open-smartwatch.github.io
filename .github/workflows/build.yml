@@ -1,5 +1,8 @@
 name: Clone OSW-OS, merge its documentation, build the result and publish it to GitHub Pages
 
+env:
+  OSW_OS_DOCS_BRANCH: develop
+
 on:
   push:
     branches: ["master"]
@@ -32,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: poetry install
       - name: Clone OSW-OS
-        run: git clone --depth 1 https://github.com/Open-Smartwatch/open-smartwatch-os.git
+        run: git clone --depth 1 https://github.com/Open-Smartwatch/open-smartwatch-os.git --branch $OSW_OS_DOCS_BRANCH
       - name: Merge docs from OSW-OS
         run: rsync -avh --progress open-smartwatch-os/docs/ docs # rsync is preinstalled and used to merge the two folders
       - name: Merge docs config from OSW-OS
