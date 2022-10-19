@@ -1,4 +1,5 @@
-name: Clone OSW-OS, merge its documentation, build the result and publish it to GitHub Pages
+# Clone OSW-OS, merge its documentation, build the result and publish it to GitHub Pages
+name: Build and deploy documentation
 
 env:
   OSW_OS_DOCS_BRANCH: develop
