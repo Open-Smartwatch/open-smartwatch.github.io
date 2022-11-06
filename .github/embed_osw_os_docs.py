@@ -10,7 +10,7 @@ sourceBranch = os.environ.get('OSW_OS_DOCS_BRANCH', 'master')
 sourceFolder = tempfile.mkdtemp()
 
 # First clone the OSW OS docs
-subprocess.check_call(['git', 'clone', '--depth', '1', '--branch', sourceBranch, 'https://github.com/Open-Smartwatch/open-smartwatch-os.git', sourceFolder])
+subprocess.check_call(['git', 'clone', '--depth', '1', '--branch', sourceBranch, '--recursive', 'https://github.com/Open-Smartwatch/open-smartwatch-os.git', sourceFolder])
 
 # Merge docs folder from OSW-OS into ours
 subprocess.check_call(['rsync', '-avh', sourceFolder + '/docs/', 'docs'])
