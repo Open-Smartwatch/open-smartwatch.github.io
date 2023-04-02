@@ -30,10 +30,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        # uses: actions/checkout@v3 # incompatible with git lfs cache bandwidth calcs (https://github.com/actions/checkout/issues/165)
+        uses: nschloe/action-cached-lfs-checkout@v1.2.1
         with:
-          lfs: 'true'
-          submodules: 'recursive'
+          submodules: recursive
       - name: Install poetry
         run: pipx install poetry
       - name: Install dependencies
