@@ -10,10 +10,9 @@ If the file name explicitly says 0.8mm, it will not fit a 1.6mm PCB. If you crea
 
 ## Important Assembly Notes
 
-⚠️⚠️⚠️⚠️ When assembling any watch case, please make sure to
-
-- insulate the flex cable, to avoid shorts when pressing down on the display (best: kapton tape on the entire back of the LCD)
-- the current case designs don't have sufficient room to assemble/disassemble the watch more than a few times. **there will be a fix for the cases soon**, until then carefully carve out the case until the display fits with not walls pressing against the flex cable. See [3d-files/issues/13](https://github.com/Open-Smartwatch/3d-files/issues/13).
+!!! warning "When assembling any watch case, please make sure to..."
+    - insulate the flex cable, to avoid shorts when pressing down on the display (best: kapton tape on the entire back of the LCD)
+    - the current case designs don't have sufficient room to assemble/disassemble the watch more than a few times. **there will be a fix for the cases soon**, until then carefully carve out the case until the display fits with not walls pressing against the flex cable. See [3d-files/issues/13](https://github.com/Open-Smartwatch/3d-files/issues/13).
 
 <img src="/assets/screenshots/case-issue.png" width="256px" />
 
