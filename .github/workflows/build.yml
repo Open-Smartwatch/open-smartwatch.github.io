@@ -2,7 +2,7 @@
 name: Build and deploy documentation
 
 env:
-  OSW_OS_DOCS_BRANCH: develop
+  OSW_OS_DOCS_BRANCH: master
 
 on:
   push:
