@@ -46,8 +46,9 @@ for srcEntries in source:
         if isinstance(srcEntry, list):
             # Ensure that the moutned list is flat
             for subEntries in srcEntry:
-                for subEntry in subEntries.values():
-                    assert isinstance(subEntry, str), 'No additional nesting allowed in OSW OS docs (the readthedocs-theme is broken)!'
+                if isinstance(subEntries, list):
+                    for subEntry in subEntries.values():
+                        assert isinstance(subEntry, str), 'No additional nesting allowed in OSW OS docs (the readthedocs-theme is broken)!'
             # Insert the new entry
             insertPosition += 1
             target['nav'].insert(insertPosition, {'Firmware - ' + srcLabel: srcEntry})
@@ -59,6 +60,8 @@ for srcEntries in source:
             raise Exception('Unknown type of entry in OSW OS docs!')
 if len(defaultFirmwareEntry) > 0:
     target['nav'][insertPositionForFirmware] = {'Firmware': defaultFirmwareEntry}
+else:
+    del target['nav'][insertPositionForFirmware]
 
 # Write the new mkdocs.yml
 if dryRun:
