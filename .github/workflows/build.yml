@@ -8,7 +8,7 @@ on:
   push:
     branches: ["master"]
   schedule:
-    - cron:  '0 0 * * *' # Automatic daily rebuild, to keep the documentation up-to-date even if maintainers forget to trigger a rebuild manually
+    - cron: "0 0 * * *" # Automatic daily rebuild, to keep the documentation up-to-date even if maintainers forget to trigger a rebuild manually
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -40,6 +40,8 @@ jobs:
         run: poetry install
       - name: Clone and merge OSW-OS docs
         run: poetry run .github/embed_osw_os_docs.py # uses rsync, which is preinstalled on this runner
+        env:
+          GIT_CLONE_PROTECTION_ACTIVE: "false" # prevents LFS from working
       - name: Build the documentation
         run: poetry run mkdocs build -c -s -d public
       - name: Setup Pages
@@ -47,7 +49,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: './public/'
+          path: "./public/"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
