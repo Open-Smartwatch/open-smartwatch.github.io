@@ -6,24 +6,24 @@ markdown_extensions:
   - admonition
 
 nav:
-- 'Home': 'index.md'
-- 'Watches':
-   - 'Gallery': 'gallery/gallery-main.md'
-   - 'Light Edition': 'watches/light-edition.md'
-   - 'GPS Edition': 'watches/gps-edition.md'
-   - 'Community Forks': 'watches/community-forks.md'
-- 'Resources':
-  - 'Hardware': 'resources/hardware.md'
-  - '3D Files Light Edition': 'resources/3d-files-light-edition.md'
-  - '3D Files GPS Edition': 'resources/3d-files-gps-edition.md'
-- 'Firmware': [] # This section was moved into the OSW-OS repository
-- 'HowTos':
-  - 'How to Contribute?': 'howto/contribute.md'
-  - 'Get Design Software': 'howto/software.md'
-  - 'Assembly Note': 'howto/assembly.md'
-  - 'Find Parts on Aliexpress': 'howto/aliexpress.md'
-  - 'Additional Soldering Tools': 'howto/hardware.md'
-- 'Code of Conduct': 'coc.md'
+  - "Home": "index.md"
+  - "Watches":
+      - "Gallery": "gallery/gallery-main.md"
+      - "Light Edition": "watches/light-edition.md"
+      - "GPS Edition": "watches/gps-edition.md"
+      - "Community Forks": "watches/community-forks.md"
+  - "Resources":
+      - "Hardware": "resources/hardware.md"
+      - "3D Files": "resources/3d-files.md"
+      - "3D Files Light Edition": "resources/3d-files-light-edition.md"
+  - "Firmware": [] # This section was moved into the OSW-OS repository
+  - "HowTos":
+      - "How to Contribute?": "howto/contribute.md"
+      - "Get Design Software": "howto/software.md"
+      - "Assembly Note": "howto/assembly.md"
+      - "Find Parts on Aliexpress": "howto/aliexpress.md"
+      - "Additional Soldering Tools": "howto/hardware.md"
+  - "Code of Conduct": "coc.md"
 
 extra_css:
   - stylesheets/tags.css
