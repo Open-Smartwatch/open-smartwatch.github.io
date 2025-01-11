@@ -15,7 +15,7 @@ Check out the apps to see what the watch can do!
 See the following pages for:
 
 * [Hardware](resources/hardware.md): for ordering PCBs, or assembled watches
-* [Firmware](firmware/osw_os.md): for infos on flashing the latest firmware
+* [Firmware](firmware/getting_started.md): for infos on flashing the latest firmware
 * [3D-Files](resources/3d-files.md): for 3D-printable design files
 * [Open-Smartwatch-OS](https://github.com/Open-Smartwatch/open-smartwatch-os): the source code on GitHub. The main branch should be stable, the develop branch is usually more up to date and can be unstable.
 * [p3dt's discord/open-smartwatch channels](https://discord.gg/9DK5JY6): to join the discussion and learn how to contribute
